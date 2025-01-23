@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>회원목록</h3>
+    <button type="button" onclick="location.href='join';">회원가입</button>
+    <table border="1" style="border-collapse: collapse;">
+        <thead id="thead">
+            <tr>
+                <th>아이디</th>
+                <th>암호</th>
+                <th>이름</th>
+                <th>주소</th>
+                <th>등록일</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+    </table>
+</body>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+
+        const tbody = document.getElementById('tbody');
+
+        async function handleList() {
+            const url =  `http://192.168.0.20:8558/api/member/list.json`;
+            const headers = {"Content-Type": "application/json"};
+            const {data} = await axios.get(url, {headers});
+            // console.log(data);
+            if (data.status == 200) {
+                tbody.innerHTML = '';
+                for (const obj of data.memberlist) {
+                    // console.log(obj);
+                    tbody.innerHTML +=
+                        `<tr>` + 
+                            `<td>${obj.id}</td>` +
+                            `<td>${obj.password}</td>` +
+                            `<td>${obj.username}</td>` +
+                            `<td>${obj.address}</td>` +
+                            `<td>${obj.regdate}</td>` +
+                        `</tr>`;
+                }
+            }
+        }
+
+        handleList(); // 함수 수동호출
+    </script>
+</html>

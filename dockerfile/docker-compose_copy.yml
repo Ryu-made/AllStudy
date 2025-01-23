@@ -1,0 +1,74 @@
+networks:
+  mynet:
+    driver: bridge
+
+services:
+  namenode:
+    image: dh-hdfs:1.2
+    container_name: namenode
+    hostname: namenode
+    command: bash -c "service ssh start && chown -R hadoop:hadoop /data/hadoop && chmod -R 777 /data/hadoop && bash"
+    stdin_open: true
+    tty: true
+    networks:
+      - mynet
+    ports:
+      - "9870:9870" # NameNode Web UI
+      - "9000:9000" # HDFS RPC
+      - "7077:7077" # Spark Master Port
+      - "8080:8080" # Spark Web UI
+      - "2220:22"
+    volumes:
+      - /home/rdh/namenode:/data/hadoop/dfs/name
+      - /home/rdh/spark/conf:/spark/conf
+
+  datanode1:
+    image: dh-hdfs:1.2
+    container_name: datanode1
+    hostname: datanode1
+    command: bash -c "service ssh start && chown -R hadoop:hadoop /data/hadoop && chmod -R 777 /data/hadoop && bash"
+    stdin_open: true
+    tty: true
+    networks:
+      - mynet
+    ports:
+      - "2221:22"
+      - "9864:9864" # DataNode Web UI
+      - "8081:8081" # Spark Worker Web UI
+    volumes:
+      - /home/rdh/datanode1:/data/hadoop/dfs/data
+      - /home/rdh/spark/conf:/spark/conf
+
+  datanode2:
+    image: dh-hdfs:1.2
+    container_name: datanode2
+    hostname: datanode2
+    command: bash -c "service ssh start && chown -R hadoop:hadoop /data/hadoop && chmod -R 777 /data/hadoop && bash" 
+    stdin_open: true
+    tty: true
+    networks:
+      - mynet
+    ports:
+      - "2222:22"
+      - "9865:9864" # DataNode Web UI
+      - "8082:8081" # Spark Worker Web UI
+    volumes:
+      - /home/rdh/datanode2:/data/hadoop/dfs/data #볼륨을 링크하면서 권한이 root로 바뀌니 위에서 hadoop 그룹을 설정함
+      - /home/rdh/spark/conf:/spark/conf
+
+  datanode3:
+    image: dh-hdfs:1.2
+    container_name: datanode3
+    hostname: datanode3
+    command: bash -c "service ssh start && chown -R hadoop:hadoop /data/hadoop && chmod -R 777 /data/hadoop && bash"
+    stdin_open: true
+    tty: true
+    networks:
+      - mynet
+    ports:
+      - "2223:22"
+      - "9866:9864" # DataNode Web UI
+      - "8083:8081" # Spark Worker Web UI
+    volumes:
+      - /home/rdh/datanode3:/data/hadoop/dfs/data
+      - /home/rdh/spark/conf:/spark/conf

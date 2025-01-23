@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<body>
+    <h1>회원가입 페이지</h1>
+
+    <form method="post" onsubmit="handleJoin(event)">
+        <input type="text" placeholder="아이디" id="id" value="" /><br />
+        <input type="text" placeholder="암호" id="password" value="" /><br />
+        <input type="text" placeholder="이름" id="username" value="" /><br />
+        <input type="text" placeholder="주소" id="address" value="" /><br />
+        <input type="submit" value="회원가입" />
+        <button type="button" onclick="location.replace('list');">회원목록</button>
+    </form>
+</body>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+        const id = document.getElementById('id');
+        const password = document.getElementById('password');
+        const username = document.getElementById('username');
+        const address = document.getElementById('address');
+
+        async function handleJoin(event) {
+            event.preventDefault(); // 화면 전송됨 방지
+            const url = `http://127.0.0.1:8558/api/member/join.json`;
+            const headers = {"Content-Type": "application/json"};
+            const reqBody = {
+                'id': id.value,
+                'password': password.value,
+                'username': username.value,
+                'address': address.value
+            };
+
+            const { data } = await axios.post(url, reqBody, {headers});
+            console.log(data);
+
+            if (data.status == 200) {
+                alert('회원가입 성공');
+            } else {
+                alert('회원가입 실패');
+            }
+        }
+    </script>
+</html>

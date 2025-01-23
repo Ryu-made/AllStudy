@@ -1,0 +1,61 @@
+,0
+0,1
+1,2
+2,3
+3,5
+4,6
+5,8
+6,13
+7,14
+8,15
+9,17
+10,18
+11,20
+12,21
+13,22
+14,23
+15,25
+16,29
+17,32
+18,34
+19,36
+20,37
+21,40
+22,41
+23,"{'car_id': 80, 'speed': 140.94, 'latitude': 75.511182, 'longitude': 34.089702, 'timestamp': 1735614737.4707072}"
+24,"{'car_id': 12, 'speed': 20.73, 'latitude': -48.077165, 'longitude': -105.268283, 'timestamp': 1735614741.4879384}"
+25,"{'car_id': 53, 'speed': 141.19, 'latitude': -12.275518, 'longitude': -139.985366, 'timestamp': 1735614742.4903336}"
+26,"{'car_id': 62, 'speed': 88.6, 'latitude': 88.943857, 'longitude': 17.359822, 'timestamp': 1735614743.4956543}"
+27,"{'car_id': 22, 'speed': 118.98, 'latitude': -67.748404, 'longitude': -135.33006, 'timestamp': 1735614744.4980118}"
+28,"{'car_id': 73, 'speed': 90.23, 'latitude': -54.232915, 'longitude': -156.568566, 'timestamp': 1735614745.5004919}"
+29,"{'car_id': 67, 'speed': 99.88, 'latitude': 35.92967, 'longitude': -50.769464, 'timestamp': 1735614749.515045}"
+30,"{'car_id': 31, 'speed': 47.1, 'latitude': 52.716842, 'longitude': 33.441813, 'timestamp': 1735614750.5179095}"
+31,"{'car_id': 10, 'speed': 112.17, 'latitude': -51.039381, 'longitude': -119.752568, 'timestamp': 1735614752.5259457}"
+32,"{'car_id': 3, 'speed': 30.78, 'latitude': -25.16712, 'longitude': 39.944937, 'timestamp': 1735614753.5293846}"
+33,"{'car_id': 89, 'speed': 113.93, 'latitude': -76.004064, 'longitude': -26.865177, 'timestamp': 1735614754.5339909}"
+34,"{'car_id': 4, 'speed': 106.09, 'latitude': 88.708467, 'longitude': -124.474872, 'timestamp': 1735614756.5433369}"
+35,"{'car_id': 50, 'speed': 5.12, 'latitude': -86.332376, 'longitude': -174.187915, 'timestamp': 1735614759.5540826}"
+36,"{'car_id': 82, 'speed': 110.47, 'latitude': -8.322113, 'longitude': 14.546083, 'timestamp': 1735614761.562044}"
+37,"{'car_id': 50, 'speed': 80.9, 'latitude': -1.809432, 'longitude': 21.42886, 'timestamp': 1735614762.5646157}"
+38,"{'car_id': 3, 'speed': 10.76, 'latitude': -79.58583, 'longitude': -9.985619, 'timestamp': 1735614763.5696228}"
+39,"{'car_id': 4, 'speed': 102.39, 'latitude': -0.121518, 'longitude': 83.828113, 'timestamp': 1735614767.5837584}"
+40,"{'car_id': 14, 'speed': 102.8, 'latitude': -29.434378, 'longitude': 74.805181, 'timestamp': 1735614769.5889854}"
+41,"{'car_id': 2, 'speed': 32.26, 'latitude': 78.48981, 'longitude': 23.36023, 'timestamp': 1735614775.6101017}"
+42,"{'car_id': 36, 'speed': 34.73, 'latitude': -82.227264, 'longitude': 17.313496, 'timestamp': 1735614777.6181495}"
+43,"{'car_id': 78, 'speed': 59.04, 'latitude': 68.283343, 'longitude': -41.51293, 'timestamp': 1735614779.6248577}"
+44,"{'car_id': 45, 'speed': 62.58, 'latitude': 53.575512, 'longitude': -44.144661, 'timestamp': 1735614780.6289642}"
+45,"{'car_id': 10, 'speed': 126.96, 'latitude': -1.917887, 'longitude': -154.227434, 'timestamp': 1735614781.6311915}"
+46,"{'car_id': 56, 'speed': 52.54, 'latitude': -49.363917, 'longitude': 103.019247, 'timestamp': 1735614782.6350648}"
+47,"{'car_id': 19, 'speed': 56.2, 'latitude': -15.004503, 'longitude': 4.27761, 'timestamp': 1735614788.65503}"
+48,"{'car_id': 40, 'speed': 119.04, 'latitude': -9.779164, 'longitude': 37.311898, 'timestamp': 1735614789.659626}"
+49,"{'car_id': 46, 'speed': 64.08, 'latitude': -2.746647, 'longitude': 25.121054, 'timestamp': 1735614790.663696}"
+50,"{'car_id': 36, 'speed': 97.83, 'latitude': 29.363916, 'longitude': -94.067863, 'timestamp': 1735614794.6782336}"
+51,"{'car_id': 28, 'speed': 42.69, 'latitude': -26.098184, 'longitude': -164.315468, 'timestamp': 1735614798.69045}"
+52,"{'car_id': 15, 'speed': 95.48, 'latitude': 28.865419, 'longitude': -165.649223, 'timestamp': 1735614808.7193117}"
+53,"{'car_id': 8, 'speed': 7.43, 'latitude': -2.397041, 'longitude': -37.371994, 'timestamp': 1735614811.7302473}"
+54,"{'car_id': 2, 'speed': 21.79, 'latitude': -77.655522, 'longitude': 81.538488, 'timestamp': 1735614812.7351873}"
+55,"{'car_id': 70, 'speed': 128.06, 'latitude': -55.333682, 'longitude': 177.755104, 'timestamp': 1735614814.7411916}"
+56,"{'car_id': 19, 'speed': 119.29, 'latitude': 78.53567, 'longitude': 155.640022, 'timestamp': 1735614817.7530727}"
+57,"{'car_id': 14, 'speed': 43.41, 'latitude': 8.946928, 'longitude': 159.973294, 'timestamp': 1735614818.7556148}"
+58,"{'car_id': 25, 'speed': 130.73, 'latitude': 73.441473, 'longitude': -135.431729, 'timestamp': 1735614819.7609406}"
+59,"{'car_id': 28, 'speed': 68.94, 'latitude': -25.1527, 'longitude': -72.526415, 'timestamp': 1735614820.7632465}"
