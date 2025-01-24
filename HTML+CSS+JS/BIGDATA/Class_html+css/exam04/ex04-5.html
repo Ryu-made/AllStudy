@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <style>
+    .container {
+      text-align: center;
+      width: 310px;
+      height: 400px;
+      padding: 10px;
+      border: 5px solid #000;
+      display: flex;
+      flex-wrap: wrap-reverse;
+      flex-direction: row-reverse;
+      justify-content: center;
+      /* align-content: space-between; */
+    }
+
+    .container>div {
+      font-size: 3rem;
+      background-color: rgb(24, 140, 80);
+      width: 100px;
+      height: 100px;
+      border: 0.5px solid #444;
+    }
+
+    .container div:nth-of-type(3n + 2) {
+      align-self: flex-end;
+    }
+  </style>
+  <title>flex - wrap</title>
+</head>
+
+<body>
+  <header class="ex-header">
+    <a href="../index.html">메인페이지로</a>
+  </header>
+  <div class="container">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+  </div>
+</body>
+
+</html>

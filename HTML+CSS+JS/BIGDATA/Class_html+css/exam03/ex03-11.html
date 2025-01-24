@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <style>
+    p:first-child {
+      color: blue;
+    }
+
+    p:first-child::after {
+      content: "대현이~";
+      color: palegreen;
+    }
+
+    p::before {
+      content: "🎲";
+    }
+
+    p:nth-of-type(2) {
+      color: lightsalmon;
+      background: navy;
+      display: inline;
+    }
+
+    p:nth-last-of-type(2)::before {
+      content: "🎁";
+    }
+
+    p:last-of-type::after {
+      content: "감사합니다.";
+      font-size: 1.25em;
+      padding: 0 20px;
+      margin-left: 0.4em;
+      border: 1px solid orangered;
+    }
+  </style>
+  <title>가상 선택자 - 기초</title>
+
+<body>
+  <header class="ex-header">
+    <a href="../index.html">메인페이지로</a>
+  </header>
+  <h1>::키워드::</h1>
+  <section>
+    <p>나의사랑</p>
+    <p>나의가족</p>
+    <p>행복미래</p>
+    <p>올 때</p>
+    <p>이제 끝</p>
+  </section>
+</body>
+
+</html>

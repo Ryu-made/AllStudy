@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+/* index(메인 페이지) */
+#index-page * {
+  text-align: center;
+  
+}
+
+#index-page :is(h1, h2) {
+  font-family: 'Nanum Pen Script', cursive;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.by {
+  font-weight: 200;
+  font-size: 1.25rem; 
+  background: #44f; 
+  padding: 0.5rem 1rem; 
+  border: 2px solid blue; 
+  margin-top: 25px; 
+  color: #fff;
+}
+
+.ex-menu {
+  background-color: lemonchiffon;
+  font-family: 'Single Day', sans-serif;
+  display: grid;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  border: 7.5px ridge green;
+  padding: 0.5rem;
+  margin: 0 5% 14px;
+}
+
+.menu-list {
+  grid-column: 1 / -1;
+  font-size: 2.5rem;
+  margin: 1.25rem 27.5%;
+  padding: 0.5rem 0;
+  background: #ff004080;
+  border: 0.5px solid #aaa;
+}
+
+.ex-menu a {
+  background: rgb(255, 160, 182);
+  padding: 0.5em;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.ex-menu a,
+.ex-menu a:visited {
+  color: #187aff;
+}
+
+.ex-menu a.pr {
+  background: rgb(160, 210, 34);
+}
+
+.ex-menu a:hover {
+  color: #eae4de;
+  background: #ed5e80;
+  cursor: pointer;
+}
+
+
+
+/* ex0$-$(예제 페이지) */
+.ex-header {
+  padding: 1.25rem;
+  max-width: 25%;
+  margin: 10px 5% 20px;
+  background-color: #faf58a;
+  text-align: center;
+  font-family: "나눔명조", NanumMyeongjo, serif;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+/* ex03-06.html */
+
+[data-title^="media"] {
+  background: lightpink;
+  height: 100%;
+}
+
+[data-title^="media"] h1 {
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+[data-title^="media"] span {
+  padding: 5px;
+}
+
+@media(max-width: 1200px) {
+  [data-title^="media"] {
+    color: #83a;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Cirrus_uncinus_clouds_in_the_morning_sky.jpg/800px-Cirrus_uncinus_clouds_in_the_morning_sky.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+  }
+}
+
+@media(max-width: 800px) {
+  [data-title^="media"] {
+    color: #420;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/MSC_Seashore_Ocean_Cay_2024.jpg/800px-MSC_Seashore_Ocean_Cay_2024.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+  }
+}
+
+@media(max-width: 480px) {
+  [data-title^="media"] {
+    color: #eee;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Betelgeuse_%2830036871174%29.jpg/1024px-Betelgeuse_%2830036871174%29.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  [data-title^="media"] h1 {
+    border-bottom-color: #eee;
+  }
+}
+
+@media(max-width: 360px) {
+  [data-title^="media"] span {
+    display: block;
+  }
+}

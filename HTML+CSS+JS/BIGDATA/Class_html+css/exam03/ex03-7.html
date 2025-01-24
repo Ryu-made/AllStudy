@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <style>
+    body {
+      background-color: skyblue;
+      background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/MSC_Seashore_Ocean_Cay_2024.jpg/800px-MSC_Seashore_Ocean_Cay_2024.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    a {
+      color: green;
+    }
+
+    a:active {
+      color: red;
+    }
+
+    a:visited {
+      color: lightyellow;
+    }
+
+    /* a:disabled {
+      color: gray;
+    } */
+
+    input:active {
+      color: white;
+      background: blueviolet;
+    }
+
+    button:active {
+      color: red;
+      background-color: yellow;
+    }
+
+    input:disabled,
+    button:disabled {
+      color: gray;
+      background: darkgray;
+    }
+
+    header div {
+      margin-bottom: 24px;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+    }
+
+    .item {
+      background-color: cadetblue;
+      width: 30px;
+      height: 30px;
+      margin: 10px 16px 0;
+    }
+
+    .item:hover {
+      height: 100px;
+      background-color: rgb(248, 142, 97);
+    }
+
+    .keyboard {
+      justify-content: center;
+      padding-bottom: 10px;
+      border-bottom: 4px solid brown;
+    }
+
+    .w,
+    .b {
+      margin: 10px 0;
+    }
+
+    .w {
+      background-color: #fff;
+    }
+
+    .b {
+      background-color: #321;
+    }
+
+    [class|="btn"] {
+      border-style: none;
+      padding: 0.4rem;
+    }
+
+    .btn-red:focus {
+      background: red;
+    }
+
+    .btn-blue:focus {
+      background: blue;
+    }
+
+    .tab:focus {
+      background: palegreen;
+    }
+
+    input[type]+label {
+      font-weight: bold;
+      color: blue;
+    }
+
+    input[type="checkbox"]:not(:checked)+label {
+      color: red;
+      text-decoration-line: line-through;
+      text-decoration-thickness: 3.5px;
+      text-decoration-color: darkgreen;
+    }
+  </style>
+  <title>가상클래스</title>
+</head>
+
+<body>
+  <header class="ex-header">
+    <a href="../index.html">메인페이지로</a>
+  </header>
+  <header>
+    <div>
+      <a href="https://naver.com">네이버링크</a>
+      <input type="button" value="눌러보세요" disabled>
+      <button type="button" disabled>눌러보세요</button>
+    </div>
+    <div>
+      <button class="btn-red" type="button">클릭하면 빨강임</button>
+      <button class="btn-blue" type="button">클릭하면 파랑임</button>
+      <input type="text" id="text" class="tab" placeholder="입력해보실?">
+      <div style="height: 0.5rem"></div>
+      <input type="checkbox" name="" id="snack">
+      <label for="snack">간식</label>
+      <input type="checkbox" name="" id="meal">
+      <label for="meal">식사</label>
+      <input type="radio" name="loc" id="korea" checked>
+      <label for="korea">한국</label>
+      <input type="radio" name="loc" id="foreign">
+      <label for="foreign">해외</label>
+    </div>
+  </header>
+  <div style="height: 4px; width: 60wv; background: black"></div>
+  <div class="container keyboard">
+    <div class="item w"></div>
+    <div class="item b"></div>
+    <div class="item w"></div>
+    <div class="item b"></div>
+    <div class="item w"></div>
+    <div class="item w"></div>
+    <div class="item b"></div>
+    <div class="item w"></div>
+    <div class="item b"></div>
+    <div class="item w"></div>
+    <div class="item b"></div>
+    <div class="item w"></div>
+  </div>
+</body>
+
+</html>

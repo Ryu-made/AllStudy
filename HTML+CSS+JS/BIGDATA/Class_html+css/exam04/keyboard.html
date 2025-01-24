@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <style>
+    body {
+      padding: 1rem;
+      background: url(../images/shootingstar.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-y: -160px;
+      min-height: 120vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #container {
+      opacity: 0.75;
+      width: 600px;
+      height: 400px;
+      position: relative;
+    }
+
+    [class|="key"] {
+      position: fixed;
+      display: flex;
+      justify-content: center;
+      width: 540px;
+      margin: 0 30px;
+    }
+
+    .key-b {
+      z-index: 1;
+    }
+
+    :root {
+      --key-width: 50px;
+      --key-height: 160px;
+      --key-interval: 5px;
+    }
+
+    [class|="key"]>div {
+      box-sizing: border-box;
+      border: 1px solid hotpink;
+      border-top: none;
+      color: rgb(255, 255, 255, 0);
+    }
+
+    .white {
+      background: #fff;
+      height: var(--key-height);
+      width: var(--key-width);
+    }
+
+    .black {
+      background: #000;
+      height: calc(var(--key-height) * 0.64);
+      width: calc(var(--key-width) - 10px);
+      margin: 0 var(--key-interval);
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+    }
+
+    .black:nth-of-type(-n + 2) {
+      transform: translateX(calc(var(--key-width) * -1 / 2));
+    }
+
+    .black:nth-of-type(n + 3) {
+      transform: translateX(calc(var(--key-width) / 2));
+    }
+
+    [class|="key"]>div:hover {
+      background: yellow;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      color: hotpink;
+      font-weight: 900;
+      font-size: 1.2rem;
+      padding-bottom: 0.5rem;
+      cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="27" cy="27" r="25" stroke="violet" stroke-width="2" fill="hotpink" /></svg>'), default;
+    }
+
+    .polygons {
+      width: 80vw;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+  <title>Keyboard</title>
+</head>
+
+<body>
+  <header class="ex-header">
+    <a href="../index.html">메인페이지로</a>
+  </header>
+  <div id="container">
+    <div class="key-b">
+      <div class="black"><span>C#</span></div>
+      <div class="black"><span>D#</span></div>
+      <div class="black"><span>F#</span></div>
+      <div class="black"><span>G#</span></div>
+      <div class="black"><span>A#</span></div>
+    </div>
+    <div class="key-w">
+      <div class="white"><span>C</span></div>
+      <div class="white"><span>D</span></div>
+      <div class="white"><span>E</span></div>
+      <div class="white"><span>F</span></div>
+      <div class="white"><span>G</span></div>
+      <div class="white"><span>A</span></div>
+      <div class="white"><span>B</span></div>
+    </div>
+  </div>
+  <!-- <div class="polygons">
+    <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+      <path d="M25,100 L75,100 L50,50 Z" fill="orange" stroke="white" stroke-width="2" />
+    </svg>
+  </div> -->
+</body>
+
+</html>

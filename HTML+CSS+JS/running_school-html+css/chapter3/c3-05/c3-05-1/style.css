@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* 글자 크기 'font-size' 속성 */
+html {
+  font-size: 100%;
+}
+h1 {
+  font-size: 2rem; /* 숫자 값으로 계산하기 */
+}
+h2 {
+  font-size: xx-large; /* 키워드로 계산하기 */
+}

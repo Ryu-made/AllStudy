@@ -1,0 +1,9 @@
+# 제외 목록
+**/*.zip
+**/*.code-workspace
+/HTML+CSS+JS/node_modules/
+/HTML+CSS+JS/dockerfile/
+**/package.json
+**/package-lock.json
+**/.git/
+/HTML+CSS+JS/mana_webdesign/source/

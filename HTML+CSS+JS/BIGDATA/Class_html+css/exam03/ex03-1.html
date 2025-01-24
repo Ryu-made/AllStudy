@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <!-- style 태그 -->
+  <style>
+    /* style 태그 구조는 target(선택자) { 속성:값; } 이다. 
+    선택자가 제일 중요하다. 
+    
+    1. CSS 선택자
+    - 축약형: 시계방향(북 -> 동 -> 남 -> 서, 위아래 -> 좌우)
+    */
+    /* span 등의 inline 태그들은 width 속성이 적용되지 않을 수 있다. */
+    div {
+      background: aqua;
+      margin: 5px;
+      padding: 0.5rem;
+      border: 5px dashed brown;
+      width: 10vw;
+      max-width: 120px;
+      min-height: 10vh;
+      max-height: 80px;
+      text-align: center;
+      font-size: 2rem;
+      align-content: center;
+    }
+  </style>
+  <title>CSS 시작</title>
+</head>
+
+<body>
+  <header class="ex-header">
+    <a href="../index.html">메인페이지로</a>
+  </header>
+  <div>A</div>
+  <div>B</div>
+  <div>C</div>
+</body>
+
+</html>

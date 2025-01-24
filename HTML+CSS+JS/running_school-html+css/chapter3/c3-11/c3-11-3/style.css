@@ -1,0 +1,19 @@
+@charset "utf-8";
+div {
+  border-style: solid;
+  padding: 0.5em;
+  border-width: 4px;
+  margin-top: 1rem;
+}
+#c0 {
+  border-color: #0bd;
+}
+#c1 {
+  border-color: tomato #06f;
+}
+#c2 {
+  border-color: palegreen #0bd tomato;
+}
+#c3 {
+  border-color: palegreen #0bd tomato #666;
+}

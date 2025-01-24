@@ -1,0 +1,27 @@
+.container :is(div, select) {
+  margin: 5px 0.25rem 0;
+}
+
+.container .text {
+  border: solid #444 1px;
+  border-radius: 6px;
+  min-height: 1.2rem;
+  background-color: skyblue;
+  padding: 0.5rem 2rem;
+  text-align: center;
+}
+
+.container .select-name {
+  border-radius: 1rem;
+}
+
+#pls-select {
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 3fr 4fr 8fr 1fr;
+  margin: 0 7.5vw;
+  min-width: 1000px;
+}

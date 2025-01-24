@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>배열 메소드</title>
+</head>
+
+<body>
+  <script>
+    const arr = [11, 22, 33, 44, 55];
+    console.log(arr);
+    console.log(`push(): ${arr.push(100)}`); // 추가한 위치(인덱스)를 반환
+    console.log(`unshift(): ${arr.unshift(200)}`);
+    for (const el of arr) {
+      console.log(el);
+    }
+    console.log('==============');
+    console.log(`pop(): ${arr.pop()}`); // 꺼낸 값을 반환
+    console.log(`shift(): ${arr.shift()}`);
+
+    for (const el of arr) {
+      console.log(el);
+    }
+
+    let arr2 = arr.slice(1, 4); // Java의 ArrayList.subList()
+    console.log(arr2, arr); // 원본 손실 X []
+    let arr3 = arr.splice(1, 2, 101, 102, 103); // (시작, 삭제 갯수, 추가 값1, 값2, ..): 값 삭제하고 새로 추가하기
+    console.log(arr3, arr); // 원본 손실 O
+  </script>
+</body>
+
+</html>

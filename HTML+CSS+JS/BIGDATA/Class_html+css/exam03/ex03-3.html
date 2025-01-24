@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <style>
+    /* div p { div의 자손인 p 요소에 적용 } */
+    /* div p {
+      color: blue;
+    } */
+
+    /* div > p { div의 바로아래인 p 요소에만 적용 } */
+    div>p {
+      color: palegreen;
+    }
+
+    /* div + p { div의 인접한(혹은 다음의) p 요소에만 적용 } */
+    div+p {
+      color: paleturquoise;
+    }
+
+    /*  */
+  </style>
+  <title>Page Title</title>
+</head>
+
+<body>
+  <header class="ex-header">
+    <a href="../index.html">메인페이지로</a>
+  </header>
+  <h1>Heading</h1>
+  <p>superneighbor1</p>
+  <p>superneighbor2</p>
+  <!-- div{안녕하세요}>p{child $}*2+span{반가워요}>p{grandchild}^p{어디가세요}^p{neighborhood} -->
+  <div>안녕하세요
+    <p>child 1</p>
+    <p>child 2</p>
+    <span>반가워요
+      <p>grandchild</p>
+    </span>
+    <p>어디가세요</p>
+  </div>
+  <p>neighborhood1</p>
+  <p>neighborhood2</p>
+  <p>neighborhood3</p>
+</body>
+
+</html>

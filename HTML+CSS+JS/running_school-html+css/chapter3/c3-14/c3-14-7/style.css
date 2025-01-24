@@ -1,0 +1,24 @@
+@charset "utf-8";
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  /*
+  align-content: [여려 행(열) 정렬]
+  - stretch; (기본값)
+  - center; (중앙 배치)
+  - flex-start; (윗 부분 맞춤)
+  - flex-end; (아랫 부분 맞춤)
+  - space-between; (위 아래 끝에 붙임, 나머지는 균등한 공간 형성)
+  - space-around; (전체 균등한 공간 형성) 
+  - space-evenly; (위 아래 여백 더 늘리고 균등한 공간 형성)
+  */
+  align-content: space-evenly;
+  height: 90vh;
+}
+.item {
+  background: #08d;
+  color: #fff;
+  font-size: 24px;
+  margin: 10px 40px 10px;
+  padding: 10px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Example - by Copilot</title>
+    <link type="text/css" rel="stylesheet" media="screen" href="style.css">
+    <style>
+        .container {
+            display: flex;
+            height: 200px;
+            border: 1px solid black;
+        }
+        .item {
+            border: 1px solid red;
+            padding: 10px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" style="align-items: flex-start;">
+        <div class="item">Item 1</div>
+        <div class="item" style="font-size: 36px;">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+    <div class="container" style="align-items: flex-end;">
+        <div class="item">Item 1</div>
+        <div class="item" style="font-size: 36px;">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+    <div class="container" style="align-items: baseline;">
+        <div class="item">Item 1</div>
+        <div class="item" style="font-size: 36px;">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+</body>
+</html>

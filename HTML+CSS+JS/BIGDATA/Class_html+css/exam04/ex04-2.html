@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <style>
+    body {
+      font-size: 12px;
+      font-family: 'GyeonMyeongjo', "견명조", serif;
+      margin: 20px;
+    }
+
+    #box {
+      width: 550px;
+      position: relative;
+      border: 2px dashed rgba(34, 34, 153, 0.15);
+    }
+
+    #box p {
+      /* opacity: 0.5; */
+      width: 130px;
+      min-height: 80px;
+      padding: 10px;
+      margin: 0;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .myr {
+      background: lightcoral;
+      position: relative;
+      z-index: 1;
+    }
+
+    .myg {
+      background: seagreen;
+      position: absolute;
+      left: 140px;
+      top: -15px;
+      z-index: 2;
+    }
+
+    .myb {
+      background: dodgerblue;
+      position: relative;
+      left: -5px;
+      top: -10px;
+    }
+  </style>
+  <title>CSS</title>
+</head>
+
+<body>
+  <header class="ex-header">
+    <a href="../index.html">메인페이지로</a>
+  </header>
+  <!--
+  position 종류
+  static(기본값)
+  relative: 단독위치
+  absolute; 부모와 연관된 상대적 위치, 가까운 relative 혹은 body의 기준 
+  -->
+  <div id="box">
+    <p class="myr">박스의 크기와 위치를 잘 살펴보아야 합니다.</p>
+    <p class="myg">박스의 포지션 속성을 바꿔가면서 테스트해 보아야 합니다.</p>
+    <p class="myb">포지션을 이해하기 위해서는 시험해보고 관찰해 보는 것이 절대적으로 필요합니다.</p>
+  </div>
+</body>
+
+</html>

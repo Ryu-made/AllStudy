@@ -1,0 +1,10 @@
+@charset "utf-8";
+p#first {
+  line-height: 18px; /* 단위 있는 숫자값 (px, em, %) */
+}
+p#second {
+  line-height: normal; /* 브라우저의 기본 줄 높이 */
+}
+p#third {
+  line-height: 2.5; /* 단위 없는 숫자값 (상대적 비율) */
+}

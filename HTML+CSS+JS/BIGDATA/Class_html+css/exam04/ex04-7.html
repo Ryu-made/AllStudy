@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-style: italic;
+      font-size: 0.85rem;
+    }
+
+    #simentics {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #ffa;
+      margin: 12px 0 24px;
+      padding: 1rem;
+      font-size: 1.25rem;
+    }
+
+    #simentics divs,
+    #simentics divf {
+      color: rebeccapurple;
+    }
+
+    #box * {
+      /* margin: 0.5rem; */
+      border: 2px solid #aaa;
+      box-sizing: border-box;
+    }
+
+    #box header,
+    #box footer {
+      width: 300px;
+      height: 40px;
+      border-color: #09c;
+    }
+
+    #box header {
+      background-color: rgb(136, 191, 81);
+    }
+
+    #box footer {
+      background-color: rgb(180, 132, 30);
+    }
+
+    #box nav {
+      border-color: red;
+      width: 50px;
+      height: 250px;
+      background: burlywood;
+      float: left;
+    }
+
+    #box main {
+      width: 300px;
+      height: 250px;
+      border-style: none;
+    }
+
+    #box .content {
+      border: none;
+      width: 250px;
+      height: 250px;
+      margin-left: 50px;
+    }
+
+    #box article {
+      border-color: #f9a;
+      height: 200px;
+      background-image: url(../images/shootingstar.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: #fff;
+      /* float: right; */
+    }
+
+    #box section {
+      border-color: #fde;
+      height: 50px;
+      background-image: url(../images/bg.png);
+      background-repeat: repeat-x;
+      background-size: contain;
+    }
+  </style>
+  <title>레이아웃 - simentic tags</title>
+</head>
+
+<body>
+  <header class="ex-header">
+    <a href="../index.html">메인페이지로</a>
+  </header>
+  <div id="simentics">
+    <h3>주로 사용하는 시멘틱 태그들</h3>
+    <header>&lt;header&gt;</header>
+    <nav>&lt;nav&gt;</nav>
+    <main>&lt;main&gt;
+      <article>&lt;article&gt;</article>
+      <section>&lt;section&gt;</section>
+    </main>
+    <aside>&lt;aside&gt;</aside>
+    <!-- <footer>&lt;footer&gt;</footer> -->
+    <h4> HTML5 형식에 등록되지 않은 태그는 inline으로 간주된다. </h4>
+    <divs>&lt;divs&gt;</divs>
+    <divf>&lt;divf&gt;</divf>
+  </div>
+
+  <div id="box">
+    <header>&lt;header&gt;</header>
+    <main>
+      <nav>&lt;nav&gt;</nav>
+      <div class="content">
+        <article>&lt;article&gt;</article>
+        <section>&lt;section&gt;</section>
+      </div>
+    </main>
+    <footer>&lt;footer&gt;</footer>
+  </div>
+</body>
+
+</html>

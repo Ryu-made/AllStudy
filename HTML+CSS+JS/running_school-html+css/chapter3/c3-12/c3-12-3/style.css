@@ -1,0 +1,4 @@
+@charset "utf-8";
+ul {
+  list-style: square url(../images/star.png) inside;
+}

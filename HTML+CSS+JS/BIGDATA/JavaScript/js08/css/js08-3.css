@@ -1,0 +1,53 @@
+.file-output {
+  display: grid;
+  grid-template-columns: 1fr 8fr 2fr 4fr;
+  gap: 8px;
+  margin: 5px 0;
+}
+
+.file-output div {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 4px;
+}
+
+.file-output:not(.subject) {
+  color: blue;
+}
+
+.subject {
+  margin-top: 15px;
+}
+
+#file-csv {
+  display: none;
+}
+
+#upload-btn, #check-btn {
+  border-style: none;
+  padding: 0.5rem;
+  background-color: #4df;
+  border-radius: 10px;
+  color: white;
+  font-weight: 900;
+  font-size: 1.5rem;
+  float: right;
+  /* display: none; */
+}
+
+#check-btn:disabled {
+  background-color: #aaa;
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+#lbl-file-csv {
+  background-color: #9f2;
+  color: white;
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 3rem;
+  display: inline-block;
+  text-align: center;
+  width: 80px;
+  cursor: pointer;
+}

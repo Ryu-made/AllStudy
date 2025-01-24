@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <link href="https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <style>
+    body {
+      background: skyblue;
+      padding-top: 8rem;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .card {
+      background: #fff;
+      max-width: 360px;
+      /* padding: 36px 12px; */
+      border-radius: 18px;
+    }
+
+    .banner {
+      background: #c6fbc6 url('https://cdn.pixabay.com/photo/2019/05/05/21/42/doodle-4181783_1280.png') no-repeat center / cover;
+      min-height: 128px;
+      display: flex;
+      position: relative;
+      justify-content: center;
+      border-top-left-radius: 18px;
+      border-top-right-radius: 18px;
+    }
+
+    .profile {
+      width: 8rem;
+      height: 8rem;
+      background: ivory url("https://cdn.pixabay.com/photo/2020/02/28/19/35/cat-4888355_1280.png");
+      background-size: 120px;
+      background-repeat: no-repeat;
+      background-position-y: 20px;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      /* transform: translateY(50%); */
+      box-shadow: 0 10px 15px rgba(0, 0, 50, .6);
+      transition: transform 0.15s ease;
+    }
+
+    h2 {
+      margin-top: 5rem;
+    }
+
+    .text {
+      text-align: justify;
+      margin: 0 2rem 2.125rem;
+      font-family: 'Yuji Boku', 'Yu Gothic', sans-serif;
+      font-weight: 700;
+    }
+
+    .follow-btn {
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .follow-btn button {
+      font-size: medium;
+      font-weight: 700;
+      background: salmon;
+      border: none;
+      padding: 1rem 0;
+      border-radius: 50px;
+      margin: 1rem 2rem;
+    }
+
+    .follow-btn button:hover {
+      color: snow;
+    }
+
+    .follow-btn button:active {
+      background: lightpink;
+    }
+
+
+    .profile:hover {
+      transform: scale(1.25);
+    }
+  </style>
+  <title>Card</title>
+</head>
+
+<body>
+  <header class="ex-header">
+    <a href="../index.html">메인페이지로</a>
+  </header>
+  <div class="card">
+    <div class="banner">
+      <div class="profile"></div>
+    </div>
+    <h2 class="name">Ryu DaeHyun</h2>
+    <div class="follow-btn">
+      <button type="button">Follow</button>
+    </div>
+    <div class="text">
+      Hey!! Hey!! 応えて誰かいませんか？<br />
+      ずっと探しても答えないや<br />
+      <!-- Hey!! Hey!! <span class="ruby"><span class="rb">僕</span><span class="rt">ぼく</span></span>だけが<span
+        class="ruby"><span class="rb">僕</span><span class="rt">ぼく</span></span>を<span class="ruby"><span
+          class="rb">作</span><span class="rt">つく</span></span>るから<br />
+      <span class="ruby"><span class="rb">泣</span><span class="rt">な</span></span>いたって、<span class="ruby"><span
+          class="rb">笑</span><span class="rt">わら</span></span>って <span class="ruby"><span class="rb">憎</span><span
+          class="rt">にく</span></span>んだって<span class="ruby"><span class="rb">愛</span><span class="rt">あい</span></span>して
+      <span class="ruby"><span class="rb">生</span><span class="rt">い</span></span>きていこう<br />
+      Hey! Hey! サムライハート (some like it hot)<br /> -->
+    </div>
+  </div>
+</body>
+
+</html>

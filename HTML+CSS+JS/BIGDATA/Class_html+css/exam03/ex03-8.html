@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <style>
+    p {
+      font-weight: bold;
+      font-size: 3em;
+    }
+
+    p:first-child {
+      color: lime;
+      background: hotpink;
+    }
+
+    p:first-child:hover {
+      color: hotpink;
+    }
+
+    p:last-child {
+      color: slateblue;
+      background: yellowgreen;
+    }
+
+    p:not(:first-child):not(:last-child) {
+      color: white;
+      background: black;
+    }
+
+    p:nth-of-type(4) {
+      color: #2ef;
+      background: #33a;
+    }
+
+    p:nth-child(2) {
+      color: #ee2;
+      background: #33a;
+    }
+  </style>
+  <title>Page Title</title>
+</head>
+
+<body>
+  <header class="ex-header">
+    <a href="../index.html">메인페이지로</a>
+  </header>
+  <div>
+    <p>first-child 입니다. </p>
+    <p>first-child 가 아닙니다. </p>
+    <p>first-child 가 아닙니다. </p>
+    <p>first-child 가 아닙니다. </p>
+    <p>last-child 입니다. </p>
+  </div>
+  <div>
+    <p>first-child 입니다. </p>
+    <p>first-child 가 아닙니다. </p>
+    <p>first-child 가 아닙니다. </p>
+    <p>first-child 가 아닙니다. </p>
+    <p>last-child 입니다. </p>
+  </div>
+</body>
+
+</html>

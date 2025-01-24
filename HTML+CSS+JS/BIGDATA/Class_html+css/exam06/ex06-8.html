@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <style>
+    body {
+      width: 100vw;
+      min-height: 200vh;
+      background: #300a20;
+    }
+
+    .box {
+      background: #c4f4da;
+      padding-bottom: 1.5rem;
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .prod-list {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 20px;
+      max-width: 1100px;
+    }
+
+    #title {
+      text-align: center;
+      padding: 3px 0 16px;
+      width: 96%;
+      background: cadetblue;
+      color: white;
+      border-top: 14px solid darkslategray;
+      border-bottom-left-radius: 35px;
+      border-bottom-right-radius: 35px;
+    }
+
+    .prod-list li {
+      border: 3px solid #222;
+      border-radius: 18px;
+      min-width: 332px;
+      position: relative;
+    }
+
+    .prod-list img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      margin: 10px;
+      box-shadow: 0 0 5px 5px snow;
+      /* overflow: hidden; */
+    }
+
+    .imagebox {
+      border: 1px solid #4a8;
+      margin: 5px;
+      background-color: rgba(195, 255, 255);
+      border-radius: 14px;
+    }
+
+    .prod-list li .caption {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Gowun Dodum', '맑은 고딕', san-serif;
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      height: 200px;
+      width: 300px;
+      box-sizing: border-box;
+      color: #fff;
+      background-color: rgba(0, 0, 0, .6);
+      /* padding: 0.5rem 0; */
+      z-index: 10;
+      opacity: 0;
+      /* transition: all 0.6s ease-in-out; */
+    }
+
+    .prod-list li:hover .caption {
+      animation: trans 750ms 1 ease-in-out;
+      opacity: 1;
+      /* transform: translateY(-165px); */
+    }
+
+    .caption h2 {
+      font-weight: 900;
+      font-size: 1.5em;
+      /* background: cyan; */
+      width: 86%;
+      margin-top: 25px;
+      padding: 0.25rem 0;
+      text-align: center;
+    }
+
+    .caption p {
+      align-self: flex-start;
+      margin: 0 0 5px 24px;
+      /* border: 0.5px solid #aaa; */
+      padding: 5px;
+      background: rgba(40, 255, 255, .4);
+      font-size: 1.2em;
+    }
+
+    .caption p::first-letter {
+      color: yellow;
+      font-weight: 700;
+      font-family: cursive;
+    }
+
+    @keyframes trans {
+      0% {
+        opacity: 0;
+        transform: translateY(165px);
+      }
+
+      75% {
+        opacity: 1;
+      }
+    }
+  </style>
+  <title>신상품 목록</title>
+</head>
+
+<body>
+  <header class="ex-header">
+    <a href="../index.html">메인페이지로</a>
+  </header>
+  <div class="box">
+    <h1 id="title">&diams;&nbsp;신상품 목록&nbsp;&diams;</h1>
+    <ul class="prod-list">
+      <li>
+        <div class="imagebox">
+          <img src="https://cdn.pixabay.com/photo/2014/09/03/20/15/shoes-434918_960_720.jpg" alt="">
+        </div>
+        <div class="caption">
+          <h2>상품1</h2>
+          <p>상품1 설명텍스트</p>
+          <p>가격: 11,111원</p>
+        </div>
+      </li>
+      <li>
+        <div class="imagebox">
+          <img src="https://cdn.pixabay.com/photo/2022/07/21/20/25/converse-7336903_960_720.jpg" alt="">
+        </div>
+        <div class="caption">
+          <h2>상품2</h2>
+          <p>상품2 설명텍스트</p>
+          <p>가격: 21,111원</p>
+        </div>
+      </li>
+      <li>
+        <div class="imagebox">
+          <img src="https://cdn.pixabay.com/photo/2014/09/03/20/15/shoes-434918_960_720.jpg" alt="">
+        </div>
+        <div class="caption">
+          <h2>상품3</h2>
+          <p>상품3 설명텍스트</p>
+          <p>가격: 31,111원</p>
+        </div>
+      </li>
+      <li>
+        <div class="imagebox">
+          <img src="https://cdn.pixabay.com/photo/2022/07/21/20/25/converse-7336903_960_720.jpg" alt="">
+        </div>
+        <div class="caption">
+          <h2>상품4</h2>
+          <p>상품4 설명텍스트</p>
+          <p>가격: 41,111원</p>
+        </div>
+      </li>
+      <li>
+        <div class="imagebox">
+          <img src="https://cdn.pixabay.com/photo/2014/09/03/20/15/shoes-434918_960_720.jpg" alt="">
+        </div>
+        <div class="caption">
+          <h2>상품5</h2>
+          <p>상품5 설명텍스트</p>
+          <p>가격: 51,111원</p>
+        </div>
+      </li>
+      <li>
+        <div class="imagebox">
+          <img src="https://cdn.pixabay.com/photo/2022/07/21/20/25/converse-7336903_960_720.jpg" alt="">
+        </div>
+        <div class="caption">
+          <h2>상품6</h2>
+          <p>상품6 설명텍스트</p>
+          <p>가격: 61,111원</p>
+        </div>
+      </li>
+      <li>
+        <div class="imagebox">
+          <img src="https://cdn.pixabay.com/photo/2014/09/03/20/15/shoes-434918_960_720.jpg" alt="">
+        </div>
+        <div class="caption">
+          <h2>상품7</h2>
+          <p>상품7 설명텍스트</p>
+          <p>가격: 71,111원</p>
+        </div>
+      </li>
+      <li>
+        <div class="imagebox">
+          <img src="https://cdn.pixabay.com/photo/2022/07/21/20/25/converse-7336903_960_720.jpg" alt="">
+        </div>
+        <div class="caption">
+          <h2>상품8</h2>
+          <p>상품8 설명텍스트</p>
+          <p>가격: 81,111원</p>
+        </div>
+      </li>
+      <li>
+        <div class="imagebox">
+          <img src="https://cdn.pixabay.com/photo/2014/09/03/20/15/shoes-434918_960_720.jpg" alt="">
+        </div>
+        <div class="caption">
+          <h2>상품9</h2>
+          <p>상품9 설명텍스트</p>
+          <p>가격: 91,111원</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>스코프</title>
+</head>
+
+<body>
+  <script>
+    // 스코프 외부
+    let pi = 3.14;
+    console.log(`1) 파이 값은 ${pi} 이다.`);
+    { // 스코프 내부
+      let pi = 3.141592;
+      console.log(`2) 스코프 내부의 파이 값은 ${pi} 이다.`);
+    }
+    console.log(`3) 파이 값은 ${pi} 이다.`);
+
+    // 함수: 선언
+    function sample() {
+      let pi = 3.1415151515;
+      console.log(`4) 함수 내의 파이 값은 ${pi} 이다.`);
+    }
+
+    sample();
+    console.log(`5) 파이 값은 ${pi} 이다.`);
+
+    function myScope() {
+      var a = '6) 나는 var의 a 입니다.';
+      console.log(a);
+      if (1) {
+        var b = '7) 나는 var의 b 입니다.'
+        var c = '8) 나는 var의 c 입니다.'
+      }
+      console.log(b);
+      console.log(c);
+    }
+    myScope();
+
+  </script>
+</body>
+
+</html>

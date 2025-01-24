@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <style>
+    .container {
+      width: 1100px;
+      margin: 50px auto;
+      line-height: 250%;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: bold;
+      color: dodgerblue;
+    }
+
+    .box {
+      box-sizing: border-box;
+      width: 300px;
+      height: 300px;
+      float: left;
+      margin: 10px;
+      padding: 10px;
+      background: url("https://img.freepik.com/premium-photo/a-crashed-plane-illustration_889227-21169.jpg");
+      background-color: beige;
+      background-blend-mode: hard-light;
+      /* background-size: contain; */
+    }
+
+    #bg1 {
+      /* 기본 */
+      background-size: auto;
+    }
+
+    #bg2 {
+      background-size: 200px;
+      background-repeat: repeat-y;
+    }
+
+    #bg3 {
+      background-size: 50%;
+      /* background-repeat: no-repeat; */
+      background-size: 100%;
+      background-size: contain;
+    }
+
+    #bg4 {
+      background-size: 80% 80%;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+
+    #bg5 {
+      background-size: contain;
+    }
+
+    #bg6 {
+      background-size: cover;
+    }
+  </style>
+  <title>Page Title</title>
+</head>
+
+<body>
+  <header class="ex-header">
+    <a href="../index.html">메인페이지로</a>
+  </header>
+  <div class="container">
+    <div class="box" id="bg1">Lorem ipsum dolor sit amet consectetur.</div>
+    <div class="box" id="bg2">Lorem ipsum dolor sit amet consectetur.</div>
+    <div class="box" id="bg3">Lorem ipsum dolor sit amet consectetur.</div>
+    <div class="box" id="bg4">Lorem ipsum dolor sit amet consectetur.</div>
+    <div class="box" id="bg5">Lorem ipsum dolor sit amet consectetur.</div>
+    <div class="box" id="bg6">Lorem ipsum dolor sit amet consectetur.</div>
+  </div>
+</body>
+
+</html>

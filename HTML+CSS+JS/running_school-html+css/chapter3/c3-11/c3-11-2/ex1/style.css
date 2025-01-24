@@ -1,0 +1,31 @@
+div {
+  width: 50vw;
+  padding: 1em;
+  border-color: #08f;
+  border-width: 10px;
+  margin-top: 1rem;
+}
+#solid {
+  border-style: solid;
+}
+#double {
+  border-style: double;
+}
+#dashed {
+  border-style: dashed;
+}
+#dotted {
+  border-style: dotted;
+}
+#groove {
+  border-style: groove;
+}
+#ridge {
+  border-style: ridge;
+}
+#inset {
+  border-style: inset;
+}
+#outset {
+  border-style: outset;
+}

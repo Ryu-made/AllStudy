@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <style>
+    body {
+      text-align: center;
+    }
+
+    .blank {
+      height: 2rem;
+    }
+
+    /* h3 요소에 class 속성이 존재하는 경우 모두 */
+    h3[class] {
+      color: blue;
+    }
+
+    /* p 요소의 class 속성에 "icox"와 일치한 값 혹은 "icox"으로 시작하여 하이픈'-'으로 연결된 경우 (속성 값이 여러 개 있는 경우 적용되지 X) */
+    p[class|="icox"] {
+      color: darkorange;
+    }
+
+    /* p 요소의 class 속성에 "icox"와 일치한 값을 포함하는 경우 (속성 값 여러 개의 경우도 적용) */
+    p[class~="icox"] {
+      background: cyan;
+    }
+
+    /* p 요소의 class 속성에 "icox" 단어가 포함된 경우 전체 (icoxpage 처럼 연결된 단어도 포함) */
+    p[class*="icox"] {
+      border-style: dashed;
+    }
+
+    /* 기타 속성 선택자: ^=는 해당 단어로 시작, $=는 끝을 의미함 */
+  </style>
+  <title>속성 선택자</title>
+</head>
+
+<body>
+  <header class="ex-header">
+    <a href="../index.html">메인페이지로</a>
+  </header>
+  <h1>속성 선택자 입니다.</h1>
+  <div class="blank"></div>
+  <h3 class="logo">서울특별시</h3>
+  <h3>경기도</h3>
+  <p class="icox">주소록을 작성합니다.</p>
+  <p class="icoxpage">전화번호를 작성합니다.</p>
+  <p class="screen-icox">건강기록부를 작성합니다.</p>
+  <p class="I icox U">금전출납부를 작성합니다.</p>
+  <p class="icox-1">손익계산서를 작성합니다.</p>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <title>패턴</title>
+  <style>
+    #tip {
+      padding: 0.75em;
+      border: 0.5px dashed #d6b;
+      margin-left: 15px;
+    }
+
+    fieldset {
+      padding: 0.25em;
+      margin-left: 15px;
+    }
+
+    .test {
+      margin: 20px;
+      background: #aaa;
+      padding: 40px 0 40px 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="ex-header">
+    <a href="../index.html">메인페이지로</a>
+  </header>
+  <h1>패턴</h1>
+  <fieldset>
+    <legend>패턴테스트</legend>
+    <form action="./ex01-5.html" name="testform" class="test">
+      <label for="id">테스트용 아이디: </label>
+      <input type="text" name="id" pattern="^[0-9A-Za-z\-_]{3,10}$" id="id" required /><br />
+      <label for="pass">테스트용 패스워드: </label>
+      <input type="password" name="password" pattern="[0-9]{6,}" id="pass" required />
+      <input type="submit">
+    </form>
+    <div id="tip">패턴에 맞출것</div>
+  </fieldset>
+</body>
+
+</html>

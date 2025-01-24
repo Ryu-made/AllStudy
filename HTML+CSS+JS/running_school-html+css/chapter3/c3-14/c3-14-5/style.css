@@ -1,0 +1,27 @@
+@charset "utf-8";
+.container {
+  border: dashed navy;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  /* 
+  justify-content: [수평 정렬 상태]
+  - flex-start; 시작 지점 배치(왼쪽 맞춤)
+  - flex-end; 끝 지점 배치(오른쪽 맞춤)
+  - center; 가운데 맞춤
+  - space-between; 양쪽 끝에 붙임, 나머지 균등한 여백 형성
+  - space-around; 전체적으로 균등한 여백 형성 
+    (처음과 마지막 여백은 절반으로 줄임)
+  - space-evenly; "space-around" 보다 좀 더 깔끔한 배치
+  */
+  justify-content: space-evenly;
+}
+.item {
+  background: #08d;
+  color: #fff;
+  font-size: 20px;
+  margin: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 10px;
+}

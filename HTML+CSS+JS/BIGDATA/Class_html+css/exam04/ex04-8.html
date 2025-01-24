@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <style>
+    .wrap {
+      display: flex;
+      flex-direction: column;
+      /* min-height: 720px; */
+      height: 100vh;
+      margin: 0 24px;
+      padding: 0.25rem;
+      background: #48f;
+    }
+
+    header {
+      height: 15%;
+      min-height: 4rem;
+      background: skyblue;
+      font-size: 2.5rem;
+    }
+
+    footer {
+      height: 12%;
+      min-height: 2rem;
+      background: palegreen;
+      font-size: 0.8rem;
+    }
+
+    nav {
+      height: 8%;
+      min-height: 1.8rem;
+      background: white;
+    }
+
+    main {
+      display: flex;
+      height: 70vh;
+      width: 100%;
+    }
+
+    aside,
+    section {
+      flex: 1;
+      background: sandybrown;
+    }
+
+    article {
+      flex: 3;
+      background: lightpink;
+    }
+  </style>
+  <title>레이아웃 - main page </title>
+</head>
+
+<body>
+  <header class="ex-header">
+    <a href="../index.html">메인페이지로</a>
+  </header>
+  <div class="wrap">
+    <header>DAEHYUN</header>
+    <nav>&lt;nav&gt;</nav>
+    <main>
+      <aside>&lt;aside&gt;</aside>
+      <article>&lt;article&gt;</article>
+      <section>&lt;section&gt;</section>
+    </main>
+    <footer>copyright &copy; RYU</footer>
+  </div>
+</body>
+
+</html>

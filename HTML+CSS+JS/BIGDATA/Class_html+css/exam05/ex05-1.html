@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <style>
+    /* css 변수 선언 */
+    :root {
+      /* --{변수명}: 값 */
+      --myblue1: #367496;
+      --myblue2: #568da4;
+      --myblue3: #78a5ba;
+      --mygreen1: #280;
+      --mygreen2: #4a0;
+      --mygreen3: #6c0;
+      --myred1: #a14;
+      --myred2: #c28;
+      --myred3: #d3e;
+    }
+
+    .wrap {
+      margin: 1rem;
+      border: 2px solid #666;
+      padding: 0.5rem;
+      /* 그림자 */
+      /* var()은 변수 적용 */
+      box-shadow: var(--mygreen1) 4px 2px 8px;
+
+      /* display 성질을 grid로 설정 */
+      display: grid;
+      /* fr(fraction): 영역을 작은 부분으로 쪼갠 비율 */
+      grid-template-columns: 2fr 3fr 2fr;
+      /* 다른 단위값으로도 가능 */
+      grid-template-rows: 120px 340px 100px;
+      gap: 8px;
+    }
+
+    .wrap div {
+      border: 2px solid #aa2;
+      font-size: 2rem;
+      font-weight: 700;
+      display: grid;
+      place-items: center;
+    }
+
+    #grid4 {
+      /* grid의 열 차지 반경 */
+      /* 현재 열부터 2칸 차지 */
+      grid-column: span 2;
+      background: var(--myblue1);
+    }
+
+    #grid1 {
+      /* 2째 눈금자부터 4째 눈금자까지 차지 */
+      grid-column: 1 / 3;
+      background: var(--myblue2);
+    }
+
+    #grid3 {
+      /* grid의 행 차지 반경 */
+      grid-row: 2 / 4;
+      background: var(--myblue3);
+    }
+
+    #grid2 {
+      background: var(--myred1);
+    }
+
+    #grid5 {
+      background: var(--myred2);
+    }
+
+    #grid6 {
+      background: var(--myred3);
+    }
+
+    .b-red {
+      color: #fff;
+      text-shadow: 2.5px 1.5px 3px var(--mygreen3);
+    }
+  </style>
+  <title>Grid 레이아웃</title>
+</head>
+
+<body>
+  <header class="ex-header">
+    <a href="../index.html">메인페이지로</a>
+  </header>
+  <div class="wrap">
+    <div id="grid1" class="grid b-blue">GRID1</div>
+    <div id="grid2" class="grid b-red">GRID2</div>
+    <div id="grid3" class="grid b-blue">GRID3</div>
+    <div id="grid4" class="grid b-blue">GRID4</div>
+    <div id="grid5" class="grid b-red">GRID5</div>
+    <div id="grid6" class="grid b-red">GRID6</div>
+  </div>
+</body>
+
+</html>

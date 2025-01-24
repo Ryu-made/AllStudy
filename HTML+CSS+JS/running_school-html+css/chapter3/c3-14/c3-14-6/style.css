@@ -1,0 +1,27 @@
+@charset "utf-8";
+.container {
+  border: dashed navy;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  /* 
+  align-items: [단일 행(열) 정렬]
+  (cf. align-self:)
+  - stretch; (기본값)
+  - center; (중앙 배치)
+  - flex-start; (윗 부분 배치)
+  - flex-end; (아랫 부분 배치)
+  - baseline; (텍스트의 베이스라인에 맞게 배치)
+  */
+  align-items: baseline;
+  height: 100vh;
+}
+.item {
+  background: #08d;
+  color: #fff;
+  font-size: 20px;
+  margin: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 10px;
+}

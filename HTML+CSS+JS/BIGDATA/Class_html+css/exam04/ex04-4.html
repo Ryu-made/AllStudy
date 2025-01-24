@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <style>
+    div {
+      display: flex;
+      width: 200px;
+      height: 200px;
+      background: paleturquoise;
+      justify-content: center;
+      align-items: center;
+    }
+
+    body {
+      background: silver;
+      font-size: 2.5rem;
+      padding: 12px;
+      height: 150vh;
+      /* scroll-behavior: smooth; */
+      display: flex;
+      /*
+      flex: 주축, 교차축 외우기 
+      주축: justify-content
+      교차축: align-items
+      */
+      justify-content: center;
+      align-items: center;
+    }
+
+    #d-2 {
+      background: khaki;
+      justify-content: flex-end;
+      align-items: flex-start;
+    }
+  </style>
+  <title>CSS 레이아웃</title>
+</head>
+
+<body>
+  <header class="ex-header">
+    <a href="../index.html">메인페이지로</a>
+  </header>
+  <div id="d-1">1</div>
+  <div id="d-2">2</div>
+  <div id="d-3">3</div>
+</body>
+
+</html>

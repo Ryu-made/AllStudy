@@ -1,0 +1,21 @@
+@charset "utf-8";
+.container {
+  display: grid;
+  /* 
+  fr(fraction) 단위: 부모 요소에 속한 자식 요소의 크기 비율을 나타낸다. 
+  (일정한 비율은 1:1:1:1)
+  */
+  grid-template-columns: 1fr 1fr 0.5fr 1fr 1fr;
+  /*gap: 10px */
+  row-gap: 10px;
+  column-gap: 20px;
+  border-style: dashed;
+  border-width: 2px;
+  padding: 2px;
+}
+.item {
+  background: #08d;
+  color: #fff;
+  font-size: 24px;
+  padding: 10px;
+}

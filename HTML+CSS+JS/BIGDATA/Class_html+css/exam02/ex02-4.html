@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <style>
+    main {
+      justify-items: center;
+      align-content: center;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    table {
+      border-collapse: collapse;
+      background-color: lightcyan;
+    }
+
+    th,
+    td {
+      border: 3px inset #00a;
+      text-align: center;
+      padding: 0.1em 0.25em;
+      width: 12vw;
+    }
+
+    td {
+      padding-top: 0.75em;
+      padding-bottom: 0.75em;
+    }
+
+    thead {
+      background-color: aqua;
+      font-size: 1.5rem;
+    }
+
+    tbody {
+      color: #444;
+    }
+
+    tfoot {
+      color: #822;
+    }
+
+    .num {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 1.2em;
+    }
+  </style>
+  <title>표 작성</title>
+</head>
+
+<body>
+  <header class="ex-header">
+    <a href="../index.html">메인페이지로</a>
+  </header>
+  <main>
+    <h1>금주의 식단</h1>
+    <!-- table>thead>tr>th{h-$}*5^^tbody>(tr>td{d-$}*5)*2 -->
+    <table>
+      <thead>
+        <tr>
+          <th>월</th>
+          <th>화</th>
+          <th>수</th>
+          <th>목</th>
+          <th>금</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">돼지국밥</td>
+          <td class="num">1</td>
+          <td class="num">2</td>
+          <td class="num">3</td>
+          <td rowspan="2">오마카세</td>
+        </tr>
+        <tr>
+          <td colspan="3">라면</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>8,000</td>
+          <td colspan="3">4,000</td>
+          <td>30,000</td>
+        </tr>
+      </tfoot>
+    </table>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <title>목록(Unordered List, List Item)</title>
+</head>
+
+<body>
+  <header class="ex-header">
+    <a href="../index.html">메인페이지로</a>
+  </header>
+  <pre style="
+    background-color: rgba(255, 255, 0, .25);">
+    <div style="font-size: 1.5rem; 
+    font-family: 'Times New Roman', Times, serif; 
+    padding-left: 3%;">
+    <b>Emmet: </b>
+    <i>ul&gt;h1{스타웍스 메뉴판}+(li&gt;h2{ex$})*2+li&gt;h2{ex3}
+    +ul&gt;(li&gt;h3{ex$})*2+li&gt;h3{ex3}
+    +ul&gt;li{i$}*3^^^^li{extra}</i></div>
+  </pre>
+  <!--  -->
+  <ul type="square">
+    <h1>스타웍스 메뉴판</h1>
+    <li>
+      <h2>아메리카노</h2>
+    </li>
+    <li>
+      <h2>라떼</h2>
+    </li>
+    <li type="circle">
+      <h2>카푸치노</h2>
+      <ul>
+        <li>
+          <h3>진한맛</h3>
+        </li>
+        <li type="disc">
+          <h3>연한맛</h3>
+        </li>
+        <li>
+          <h3>신맛</h3>
+          <ol>
+            <li>산미강</li>
+            <li>중</li>
+            <li>약</li>
+          </ol>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <h2>스무디</h2>
+    </li>
+  </ul>
+</body>
+
+</html>

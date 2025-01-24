@@ -1,0 +1,470 @@
+[
+{
+  "2003": {
+    "$numberDouble": "63.6"
+  },
+  "2006": {
+    "$numberDouble": "64.2"
+  },
+  "2008": {
+    "$numberDouble": "46.4"
+  },
+  "2009": {
+    "$numberDouble": "55.2"
+  },
+  "2012": {
+    "$numberDouble": "46.6"
+  },
+  "2014": {
+    "$numberDouble": "57.5"
+  },
+  "2015": {
+    "$numberDouble": "58.2"
+  },
+  "2016": {
+    "$numberDouble": "62.3"
+  },
+  "2017": {
+    "$numberDouble": "60.1"
+  },
+  "2018": {
+    "$numberDouble": "61.6"
+  },
+  "2019": {
+    "$numberDouble": "68.1"
+  },
+  "2020": {
+    "$numberDouble": "59.9"
+  },
+  "2021": {
+    "$numberDouble": "60.1"
+  },
+  "2022": {
+    "$numberDouble": "60.4"
+  },
+  "2023": {
+    "$numberDouble": "62.8"
+  },
+  "_id": {
+    "$oid": "6790a9ba0c883b54957c3398"
+  },
+  "통계분류(1)": "성별",
+  "통계분류(2)": "남자"
+},
+{
+  "2003": {
+    "$numberDouble": "55.1"
+  },
+  "2006": {
+    "$numberDouble": "52.0"
+  },
+  "2008": {
+    "$numberDouble": "38.3"
+  },
+  "2009": {
+    "$numberDouble": "45.3"
+  },
+  "2012": {
+    "$numberDouble": "40.0"
+  },
+  "2014": {
+    "$numberDouble": "52.0"
+  },
+  "2015": {
+    "$numberDouble": "53.8"
+  },
+  "2016": {
+    "$numberDouble": "56.7"
+  },
+  "2017": {
+    "$numberDouble": "58.4"
+  },
+  "2018": {
+    "$numberDouble": "62.8"
+  },
+  "2019": {
+    "$numberDouble": "65.1"
+  },
+  "2020": {
+    "$numberDouble": "60.3"
+  },
+  "2021": {
+    "$numberDouble": "61.4"
+  },
+  "2022": {
+    "$numberDouble": "62.0"
+  },
+  "2023": {
+    "$numberDouble": "61.9"
+  },
+  "_id": {
+    "$oid": "6790a9ba0c883b54957c3399"
+  },
+  "통계분류(1)": "성별",
+  "통계분류(2)": "여자"
+},
+{
+  "2003": {
+    "$numberDouble": "57.8"
+  },
+  "2006": {
+    "$numberDouble": "52.1"
+  },
+  "2008": {
+    "$numberDouble": "38.8"
+  },
+  "2009": {
+    "$numberDouble": "44.7"
+  },
+  "2012": {
+    "$numberDouble": "36.6"
+  },
+  "2014": {
+    "$numberDouble": "54.7"
+  },
+  "2015": {
+    "$numberDouble": "49.0"
+  },
+  "2016": {
+    "$numberDouble": "63.1"
+  },
+  "2017": {
+    "$numberDouble": "60.4"
+  },
+  "2018": {
+    "$numberDouble": "57.2"
+  },
+  "2019": {
+    "$numberDouble": "50.1"
+  },
+  "2020": {
+    "$numberDouble": "52.0"
+  },
+  "2021": {
+    "$numberDouble": "55.0"
+  },
+  "2022": {
+    "$numberDouble": "52.6"
+  },
+  "2023": {
+    "$numberDouble": "47.9"
+  },
+  "_id": {
+    "$oid": "6790a9ba0c883b54957c339a"
+  },
+  "통계분류(1)": "연령별",
+  "통계분류(2)": "10대"
+},
+{
+  "2003": {
+    "$numberDouble": "49.5"
+  },
+  "2006": {
+    "$numberDouble": "61.7"
+  },
+  "2008": {
+    "$numberDouble": "38.0"
+  },
+  "2009": {
+    "$numberDouble": "44.3"
+  },
+  "2012": {
+    "$numberDouble": "35.9"
+  },
+  "2014": {
+    "$numberDouble": "56.0"
+  },
+  "2015": {
+    "$numberDouble": "54.9"
+  },
+  "2016": {
+    "$numberDouble": "57.3"
+  },
+  "2017": {
+    "$numberDouble": "55.2"
+  },
+  "2018": {
+    "$numberDouble": "59.3"
+  },
+  "2019": {
+    "$numberDouble": "69.2"
+  },
+  "2020": {
+    "$numberDouble": "60.9"
+  },
+  "2021": {
+    "$numberDouble": "63.6"
+  },
+  "2022": {
+    "$numberDouble": "62.1"
+  },
+  "2023": {
+    "$numberDouble": "57.6"
+  },
+  "_id": {
+    "$oid": "6790a9ba0c883b54957c339b"
+  },
+  "통계분류(1)": "연령별",
+  "통계분류(2)": "20대"
+},
+{
+  "2003": {
+    "$numberDouble": "56.2"
+  },
+  "2006": {
+    "$numberDouble": "56.1"
+  },
+  "2008": {
+    "$numberDouble": "40.9"
+  },
+  "2009": {
+    "$numberDouble": "46.5"
+  },
+  "2012": {
+    "$numberDouble": "39.6"
+  },
+  "2014": {
+    "$numberDouble": "53.1"
+  },
+  "2015": {
+    "$numberDouble": "53.2"
+  },
+  "2016": {
+    "$numberDouble": "56.8"
+  },
+  "2017": {
+    "$numberDouble": "60.7"
+  },
+  "2018": {
+    "$numberDouble": "61.9"
+  },
+  "2019": {
+    "$numberDouble": "70.3"
+  },
+  "2020": {
+    "$numberDouble": "58.6"
+  },
+  "2021": {
+    "$numberDouble": "57.5"
+  },
+  "2022": {
+    "$numberDouble": "65.3"
+  },
+  "2023": {
+    "$numberDouble": "64.7"
+  },
+  "_id": {
+    "$oid": "6790a9ba0c883b54957c339c"
+  },
+  "통계분류(1)": "연령별",
+  "통계분류(2)": "30대"
+},
+{
+  "2003": {
+    "$numberDouble": "71.2"
+  },
+  "2006": {
+    "$numberDouble": "66.0"
+  },
+  "2008": {
+    "$numberDouble": "47.4"
+  },
+  "2009": {
+    "$numberDouble": "55.7"
+  },
+  "2012": {
+    "$numberDouble": "50.0"
+  },
+  "2014": {
+    "$numberDouble": "56.1"
+  },
+  "2015": {
+    "$numberDouble": "61.2"
+  },
+  "2016": {
+    "$numberDouble": "61.1"
+  },
+  "2017": {
+    "$numberDouble": "60.4"
+  },
+  "2018": {
+    "$numberDouble": "65.7"
+  },
+  "2019": {
+    "$numberDouble": "70.3"
+  },
+  "2020": {
+    "$numberDouble": "61.3"
+  },
+  "2021": {
+    "$numberDouble": "63.7"
+  },
+  "2022": {
+    "$numberDouble": "65.1"
+  },
+  "2023": {
+    "$numberDouble": "64.1"
+  },
+  "_id": {
+    "$oid": "6790a9ba0c883b54957c339d"
+  },
+  "통계분류(1)": "연령별",
+  "통계분류(2)": "40대"
+},
+{
+  "2003": {
+    "$numberDouble": "65.7"
+  },
+  "2006": {
+    "$numberDouble": "68.0"
+  },
+  "2008": {
+    "$numberDouble": "48.6"
+  },
+  "2009": {
+    "$numberDouble": "58.1"
+  },
+  "2012": {
+    "$numberDouble": "50.8"
+  },
+  "2014": {
+    "$numberDouble": "57.4"
+  },
+  "2015": {
+    "$numberDouble": "60.0"
+  },
+  "2016": {
+    "$numberDouble": "60.8"
+  },
+  "2017": {
+    "$numberDouble": "60.4"
+  },
+  "2018": {
+    "$numberDouble": "64.5"
+  },
+  "2019": {
+    "$numberDouble": "70.8"
+  },
+  "2020": {
+    "$numberDouble": "64.4"
+  },
+  "2021": {
+    "$numberDouble": "61.0"
+  },
+  "2022": {
+    "$numberDouble": "63.9"
+  },
+  "2023": {
+    "$numberDouble": "66.5"
+  },
+  "_id": {
+    "$oid": "6790a9ba0c883b54957c339e"
+  },
+  "통계분류(1)": "연령별",
+  "통계분류(2)": "50대"
+},
+{
+  "2003": {
+    "$numberDouble": "58.7"
+  },
+  "2006": {
+    "$numberDouble": "46.5"
+  },
+  "2008": {
+    "$numberDouble": "46.1"
+  },
+  "2009": {
+    "$numberDouble": "57.5"
+  },
+  "2012": {
+    "$numberDouble": "47.3"
+  },
+  "2014": {
+    "$numberDouble": "58.0"
+  },
+  "2015": {
+    "$numberDouble": "59.6"
+  },
+  "2016": {
+    "$numberDouble": "61.4"
+  },
+  "2017": {
+    "$numberDouble": "61.7"
+  },
+  "2018": {
+    "$numberDouble": "63.6"
+  },
+  "2019": {
+    "$numberDouble": "69.0"
+  },
+  "2020": {
+    "$numberDouble": "62.1"
+  },
+  "2021": {
+    "$numberDouble": "63.2"
+  },
+  "2022": {
+    "$numberDouble": "59.6"
+  },
+  "2023": {
+    "$numberDouble": "68.0"
+  },
+  "_id": {
+    "$oid": "6790a9ba0c883b54957c339f"
+  },
+  "통계분류(1)": "연령별",
+  "통계분류(2)": "60대"
+},
+{
+  "2003": {
+    "$numberDouble": "0.0"
+  },
+  "2006": {
+    "$numberDouble": "30.3"
+  },
+  "2008": {
+    "$numberDouble": "32.8"
+  },
+  "2009": {
+    "$numberDouble": "46.0"
+  },
+  "2012": {
+    "$numberDouble": "41.4"
+  },
+  "2014": {
+    "$numberDouble": "45.0"
+  },
+  "2015": {
+    "$numberDouble": "49.7"
+  },
+  "2016": {
+    "$numberDouble": "55.3"
+  },
+  "2017": {
+    "$numberDouble": "54.6"
+  },
+  "2018": {
+    "$numberDouble": "59.8"
+  },
+  "2019": {
+    "$numberDouble": "57.8"
+  },
+  "2020": {
+    "$numberDouble": "57.0"
+  },
+  "2021": {
+    "$numberDouble": "58.3"
+  },
+  "2022": {
+    "$numberDouble": "54.3"
+  },
+  "2023": {
+    "$numberDouble": "60.6"
+  },
+  "_id": {
+    "$oid": "6790a9ba0c883b54957c33a0"
+  },
+  "통계분류(1)": "연령별",
+  "통계분류(2)": "70세이상"
+}
+]

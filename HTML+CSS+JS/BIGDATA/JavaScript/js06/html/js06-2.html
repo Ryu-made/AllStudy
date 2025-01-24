@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <script>
+    // 문서가 로드된 후에 body(본문)에 대한 함수 실행 가능
+    document.addEventListener('DOMContentLoaded', () => {
+      const body = document.body;
+      body.style.display = 'flex';
+      body.style.flexDirection = 'column';
+      body.style.alignContent = 'center';
+
+      for (let i = 0; i < 6; i++) {
+        // DOM 요소 생성하고 body에 붙이기
+        const header = document.createElement('h1');
+        body.append(header);
+        // 스타일 지정
+        header.style.minWidth = '800px';
+        header.style.color = '#65d';
+        header.style.textAlign = 'center';
+        header.style.fontSize = '4.5em';
+        header.style.margin = '1.5rem 800px';
+        header.style.borderRadius = '2.5rem / 50%';
+        header.style.backgroundColor = '#bef';
+
+        header.textContent = '문서 객체 동적 생성';
+        // 속성 지정 방법
+        header.setAttribute('id', `title-id${i + 1}`);
+        header.className = 'client-class';
+        header.classList.add('another-class');
+      }
+    });
+  </script>
+  <title>문서 객체</title>
+</head>
+
+<body>
+
+</body>
+
+</html>

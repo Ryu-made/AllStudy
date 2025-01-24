@@ -1,0 +1,11 @@
+/* @charset: 캐릭터셋(인코딩)은 1번째 줄에 작성한다. */
+@charset "utf=8";
+body {
+  background-color: #fffeee;
+}
+h1 {
+  color: #0bd; /* 글자 색깔: 하늘색 */
+}
+p {
+  font-size: 20px; /* 글자 크기: 20픽셀 */
+}

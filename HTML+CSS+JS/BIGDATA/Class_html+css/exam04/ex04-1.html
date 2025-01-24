@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <style>
+    h2 {
+      font-size: 1.125em;
+      background: slateblue;
+      width: 268px;
+      height: 30px;
+      text-align: center;
+      color: white;
+      margin: 0.75rem;
+    }
+
+    #contain {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 0.25rem;
+      width: 500px;
+      padding: 20px 0 5px;
+      background: none;
+    }
+
+    .wrapper {
+      width: 294px;
+      height: 270px;
+      padding: 0.8rem;
+      text-align: center;
+      background: beige;
+    }
+
+    div[class]:not([class*="wrapper"]) {
+      float: left;
+      width: 30px;
+      height: 30px;
+      border: 1px solid blue;
+      margin: 5px;
+      font-size: 1.1rem;
+    }
+
+    /* 7의 배수를 선택하기 */
+    div:nth-of-type(7n) {
+      color: skyblue;
+    }
+
+    div:nth-of-type(7n + 8) {
+      color: orangered;
+    }
+
+    /* 25일 이후부터 선택하기 */
+    .november div:nth-of-type(n + 30) {
+      background: brown;
+      color: white;
+    }
+
+    /* 처음부터 8일까지 선택 */
+    .november div:nth-of-type(-n + 13):nth-of-type(n + 6),
+    .january div:nth-of-type(-n + 7):nth-of-type(n + 4) {
+      background: yellow;
+    }
+
+    /* 12일 부터 15일 까지 시험기간 */
+    .november div:nth-of-type(n + 17):nth-of-type(-n + 20),
+    .january div:nth-of-type(n + 16):nth-of-type(-n + 19) {
+      color: red;
+      background: aqua;
+    }
+
+    .january div:nth-of-type(n + 31) {
+      background: darkred;
+    }
+
+    .january div:nth-of-type(n + 31):nth-of-type(-n + 33) {
+      color: red;
+    }
+
+    .e {
+      color: rgba(136, 170, 170, .2);
+    }
+  </style>
+  <title>가상 선택자 - 응용</title>
+</head>
+
+<body>
+  <header class="ex-header">
+    <a href="../index.html">메인페이지로</a>
+  </header>
+  <div id="contain">
+    <!-- 11월 달력 시작 -->
+    <div class="wrapper november">
+      <h2>2024년 11월</h2>
+      <div class="e">27</div>
+      <div class="e">28</div>
+      <div class="e">29</div>
+      <div class="e">30</div>
+      <div class="e">31</div>
+      <div class="b1ox">1</div>
+      <div class="box">2</div>
+      <div class="b2ox">3</div>
+      <div class="b3ox">4</div>
+      <div class="box">5</div>
+      <div class="box4">6</div>
+      <div class="5box">7</div>
+      <div class="box">8</div>
+      <div class="b-ox">9</div>
+      <div class="box-">10</div>
+      <div class="-box">11</div>
+      <div class="box">12</div>
+      <div class="box">13</div>
+      <div class="b00ox">14</div>
+      <div class="box">15</div>
+      <div class="boxx">16</div>
+      <div class="bbox">17</div>
+      <div class="box">18</div>
+      <div class="b--ox">19</div>
+      <div class="box-20">20</div>
+      <div class="box">21</div>
+      <div class="box33">22</div>
+      <div class="box">23</div>
+      <div class="~box">24</div>
+      <div class="box">25</div>
+      <div class="box">26</div>
+      <div class="box">27</div>
+      <div class="box">28</div>
+      <div class="box">29</div>
+      <div class="box">30</div>
+    </div>
+    <!-- 11월 달력 마침 -->
+
+    <!-- 25년 1월 달력 시작 -->
+    <div class="wrapper january">
+      <h2>2025년 01월</h2>
+      <div class="e">29</div>
+      <div class="e">30</div>
+      <div class="e">31</div>
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+      <div class="box">6</div>
+      <div class="box">7</div>
+      <div class="box">8</div>
+      <div class="box">9</div>
+      <div class="box">10</div>
+      <div class="box">11</div>
+      <div class="box">12</div>
+      <div class="box">13</div>
+      <div class="b00ox">14</div>
+      <div class="box">15</div>
+      <div class="boxx">16</div>
+      <div class="bbox">17</div>
+      <div class="box">18</div>
+      <div class="b--ox">19</div>
+      <div class="box-20">20</div>
+      <div class="box">21</div>
+      <div class="box33">22</div>
+      <div class="box">23</div>
+      <div class="box">24</div>
+      <div class="box">25</div>
+      <div class="box">26</div>
+      <div class="box">27</div>
+      <div class="box">28</div>
+      <div class="box">29</div>
+      <div class="box">30</div>
+      <div class="box">31</div>
+    </div>
+    <!-- 25년 1월 달력 마침 -->
+  </div>
+</body>
+
+</html>

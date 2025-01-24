@@ -1,0 +1,57 @@
+@charset "utf-8";
+* {
+  font-size: 24px;
+}
+.container {
+  padding: 1rem;
+  border-style: solid;
+  border-color: darkblue;
+  border-width: 3px;
+  margin: 0.5em;
+}
+ul {
+  color: darkviolet;
+}
+ol {
+  color: darkgreen;
+}
+
+ul#none {
+  list-style-type: none;
+}
+ul#disc {
+  list-style-type: disc;
+}
+ul#circle {
+  list-style-type: circle;
+}
+ul#square {
+  list-style-type: square;
+}
+ol#decimal {
+  list-style-type: decimal;
+}
+ol#decimal-leading-zero {
+  list-style-type: decimal-leading-zero;
+}
+ol#lower-roman {
+  list-style-type: lower-roman;
+}
+ol#upper-roman {
+  list-style-type: upper-roman;
+}
+ol#hangul {
+  list-style-type: hangul;
+}
+ol#cjk-ideographic {
+  list-style-type: cjk-ideographic;
+}
+ol#lower-greek {
+  list-style-type: lower-greek;
+}
+ol#lower-latin {
+  list-style-type: lower-latin;
+}
+ol#upper-latin {
+  list-style-type: upper-latin;
+}

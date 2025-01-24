@@ -1,0 +1,54 @@
+<!--
+    - HTML 구조
+    1. !DOCTYPE html : HTML5(마크업언어 버전5)에 따라 문서 작성
+     >> 반드시 문서의 첫 번째 라인에 작성 : 다른 태그들보다 우선적 (ex. jsp의 html 문서 시작)
+    2. cf. <!DOCTYPE html PUBLIC "-//w3c/DTO HTML 4.01 {...}.dtd"> 이전 버전(3,4버전)일 때 작성
+
+-->
+<!DOCTYPE html>
+<!-- 
+<html> 태그 : 시작(열기), </html>로 닫기 
+<head></head> : 브라우저 내의 정보 표시
+body /body : 브라우저 콘텐츠(내용) 표시
+
+이 세 가지 태그는 html파일에 작성하지 않아도 자동으로 작성됨(필수 요소)
+-->
+
+<html>
+<head>
+    <!-- 
+    - meta 태그 
+    : 메타데이터, 컴퓨터가 이해할 수 있는 정보 표시
+    -->
+
+    <!-- 문자 인코딩 (국제 표준: UTF-8) -->
+    <meta charset='utf-8'>
+    <!-- http-equiv: 브라우저 장비(보통 모든 브라우저 지원), IE=edge -->
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <!-- name=viewport: 화면 너비, 높이 맞춤을 위한 설정 -->
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <!-- 페이지에 대한 설명 : SEO 마케팅에서 활용하는 태그 -->
+    <meta name="keyword" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- SNS, 소셜미디어 등에 주소를 보내면 아래 노출되는 정보 
+        >> 적용가능시간: 10초 ~ 7일 -->
+    <meta name="og:name" content="">
+    
+
+    <!-- 
+        현재 페이지에 대한 제목, 설명 or 메뉴의 위치 등 
+            >> <body> 태그 안에 선언해도 실행됨 
+    -->
+    
+    <!-- favicon: 페이지 타이틀 옆에 아이콘 MIME (타입) -->
+    <link rel="shortcut icon" href="path" type="image/x-icon" />
+    
+    <title>Page Title</title>
+</head>
+<body>
+    
+</body>
+</html>

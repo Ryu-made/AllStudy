@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <title>form 태그</title>
+</head>
+<!-- 여닫이가 하나인 태그들: br, hr, input, img, meta 등등 -->
+
+<body>
+  <header class="ex-header">
+    <a href="../index.html">메인페이지로</a>
+  </header>
+  <fieldset>
+    <legend>이름 양식</legend>
+    <form action="./ex01-4.html" method="GET" name="nameform">
+      <label for="fname">First Name : </label>
+      <input type="text" name="first-name" id="fname" placeholder="이름 입력" /><br />
+      <label for="lname">First Name : </label>
+      <input type="text" name="last-name" id="lname" placeholder="성 입력" /><br />
+      <label for="age">Age : </label>
+      <input type="number" name="age" id="age" placeholder="나이 입력" min="0" max="20" step="1" value="15" /><br />
+
+      <label for="gender">Gender : </label>
+      <select id="gender" name="gender">
+        <option value="" selected>Select</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+      <br />
+
+      <label for="">Checkbox1 : </label>
+      <input type="checkbox" name="c1" value="1" /><br />
+      <label for="">Checkbox2 : </label>
+      <input type="checkbox" name="c2" value="2" checked /><br />
+      <label for="">Radio1 : </label>
+      <input type="radio" name="radio" value="html" checked /><br />
+      <label for="">Radio2 : </label>
+      <input type="radio" name="radio" value="css" /><br />
+      <label for="">Radio3 : </label>
+      <input type="radio" name="pic" value="jpg" /><br />
+      <label for="">Radio4 : </label>
+      <input type="radio" name="pic" value="png" checked /><br />
+      <label for="">Password : </label>
+      <input type="password" name="pass" maxlength="20" /><br />
+      <label for="">Date+Time : </label>
+      <input type="datetime-local" name="d" /><br />
+      <label for="">File : </label>
+      <input type="file" name="f" /><br />
+      (숨김)<br />
+      <input type="hidden" name="외모" value="잘생김">
+      <input type="submit" value="보내기" />
+      <input type="reset" value="클리어" />
+      <hr />
+      <button type="submit">제출</button>
+      <button type="reset">지움</button>
+    </form>
+  </fieldset>
+</body>
+
+</html>

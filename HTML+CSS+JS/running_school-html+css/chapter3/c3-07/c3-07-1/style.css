@@ -1,0 +1,13 @@
+@charset "utf-8";
+html {
+  background-color: lightpink; /* 페이지 배경색 */
+}
+h1 {
+  color:#0bd; /* 제목1 글자색: 색상코드 3자리 */
+}
+h2 {
+  color: navy; /* 제목2 글자색: 색상 이름-남색 */
+}
+p {
+  color: rgba(10, 130, 165, .3); /* 본문 글자색: RGB+A */
+}

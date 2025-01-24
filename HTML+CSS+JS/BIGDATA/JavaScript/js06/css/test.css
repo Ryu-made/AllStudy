@@ -1,0 +1,4 @@
+.any {
+  scale: 2;
+  grid-template-columns: repeat(auto-fit, 240px);
+}

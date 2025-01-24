@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <style>
+    :root {
+      --imgw: 115px;
+    }
+
+    body {
+      border: 1px solid chocolate;
+      border-radius: 80px;
+      height: 200vh;
+      padding: 40px 80px;
+    }
+
+    #main {
+      /* 방법 1 */
+      /* text-align: center; */
+
+      /* position: relative; */
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: space-between;
+      row-gap: 40px;
+    }
+
+    .cir {
+      background: rgb(255, 170, 0);
+      border: 5px solid rgba(255, 255, 255, 0.6);
+      box-sizing: border-box;
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      /* margin: 20px 0; */
+      font-size: 2rem;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    img {
+      width: var(--imgw);
+      /* 방법 2 */
+      /* margin: 0 auto;
+      display: block; */
+
+      /* 방법 3 */
+      position: fixed;
+      left: calc(50% - var(--imgw) / 2);
+    }
+  </style>
+  <title>Page Title</title>
+</head>
+
+<body>
+  <header class="ex-header">
+    <a href="../index.html">메인페이지로</a>
+  </header>
+  <img src="https://cdn.pixabay.com/photo/2017/02/01/10/15/boosters-2029393_1280.png" alt="rocket">
+  <div id="main">
+    <div class="cir l">1</div>
+    <div class="cir l">2</div>
+    <div class="cir l">3</div>
+    <div class="cir r">4</div>
+    <div class="cir r">5</div>
+    <div class="cir r">6</div>
+  </div>
+</body>
+
+</html>

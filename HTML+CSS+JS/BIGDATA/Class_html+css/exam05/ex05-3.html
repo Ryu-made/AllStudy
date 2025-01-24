@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <style>
+    @counter-style book {
+      system: cyclic;
+      symbols: "\1F4D4";
+      suffix: " ";
+    }
+
+    ul {
+      /* list-style: none; */
+      list-style: book;
+      max-width: 8rem;
+      /* padding: 0; */
+    }
+
+    /* li::before {
+      content: '';
+      position: absolute;
+      top: auto;
+      left: 15px;
+      width: 1rem;
+      height: 1rem;
+      background: url(https://cdn-icons-png.flaticon.com/512/5856/5856579.png) no-repeat center center;
+      background-size: contain;
+    } */
+
+    li {
+      /* display: inline-block; */
+      padding-left: 4px;
+      line-height: 2.5rem;
+      border-bottom: 1px solid darkblue;
+    }
+  </style>
+  <title>북카페</title>
+</head>
+
+<body>
+  <header class="ex-header">
+    <a href="../index.html">메인페이지로</a>
+  </header>
+  <h1>망가방가</h1>
+  <ul>
+    <li>회사소개</li>
+    <li>도서</li>
+    <li>자료실</li>
+    <li>FQA</li>
+    <li>구매문의</li>
+  </ul>
+</body>
+
+</html>

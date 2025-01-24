@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      min-height: 100vh;
+    }
+
+    .container {
+      width: 450px;
+      height: 450px;
+      border: 4px solid blueviolet;
+      margin: 5px 0;
+      text-align: center;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      gap: 5px;
+    }
+
+    .trans {
+      background-color: lightseagreen;
+      box-sizing: border-box;
+      font-size: 2rem;
+      transition: transform 1s linear;
+      width: 50%;
+      border: 4px solid white;
+    }
+
+    .trans:hover {
+      background-color: lightblue;
+      border-color: hotpink;
+      transform: rotateZ(-240deg);
+      /* transform: rotateX(-240deg); */
+      /* transform: rotateY(-240deg); */
+    }
+  </style>
+  <title>Page Title</title>
+</head>
+
+<body>
+  <header class="ex-header">
+    <a href="../index.html">메인페이지로</a>
+  </header>
+  <div class="container">
+    <div class="trans">transformed1</div>
+    <div class="trans">transformed2</div>
+  </div>
+  <div class="container">
+    <div class="trans">transformed3</div>
+    <div class="trans">transformed4</div>
+  </div>
+</body>
+
+</html>

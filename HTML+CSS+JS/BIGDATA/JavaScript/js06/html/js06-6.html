@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>이벤트 설정하기</title>
+  <script src='../js/js06-6.js'></script>
+</head>
+
+<body>
+  <script>
+    const body = document.body;
+    const heading = document.createElement('h1');
+    const span = document.createElement('span');
+    heading.textContent = '클릭횟수 : ';
+    span.textContent = '0';
+    heading.append(span);
+    body.append(heading);
+
+    body.style.fontSize = '6em';
+    body.style.textAlign = 'center';
+    heading.style.color = '#ccc';
+    heading.style.userSelect = 'none'; // 자료 수집 방지
+    heading.style.cursor = 'pointer'; // 마우스 커서 형태 바꾸기
+
+    heading.addEventListener('click', () => addClick(span));
+    heading.addEventListener('mouseover', () => addOver(heading));
+    heading.addEventListener('mouseout', () => addOut(heading));
+    document.addEventListener('contextmenu', event => event.preventDefault()); // 우클릭 방지
+  </script>
+</body>
+
+</html>

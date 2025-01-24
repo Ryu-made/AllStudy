@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../style.css" />
+  <style>
+    form {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      min-width: 800px;
+      text-align: center;
+    }
+
+    header {
+      left: 50%;
+    }
+
+    table {
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      border: 1px solid #bdf;
+    }
+
+    th {
+      background: #44f;
+      color: #fff;
+      padding: 0.375rem 0.5rem;
+    }
+
+    td {
+      color: #666;
+    }
+
+    td input {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 1rem;
+      color: black;
+      border: hidden;
+      padding: 0.3rem 0;
+      margin: 0.25rem 0;
+      width: 100%;
+    }
+
+    section {
+      margin-top: 20px;
+    }
+
+    #rd-gender input {
+      width: 15%;
+    }
+
+    #rd-gender label {
+      color: #000;
+    }
+
+    #cell-phone input {
+      width: 27%;
+      max-width: 50px;
+    }
+
+    #phone-select {
+      background: #f6f6f6;
+    }
+
+    .btn {
+      background: #aee;
+      border-style: solid;
+      border-color: rgba(255, 255, 255, 0);
+    }
+  </style>
+  <title>리스트 연습문제</title>
+</head>
+
+<body>
+  <header class="ex-header">
+    <a href="../index.html">메인페이지로</a>
+  </header>
+  <form action="pr02-3.html" method="post">
+    <h2>간단 이력서 표로 만들기</h2>
+    <table>
+      <tr>
+        <td rowspan="5">
+          <a href="#"><img src="https://www.freeiconspng.com/thumbs/male-icon/male-icon-4.jpg" alt="아이콘-인물"
+              height="180"></a>
+        </td>
+        <th colspan="4">이력서</th>
+      </tr>
+      <tr>
+        <th rowspan="2"><label for="name">성명</label></th>
+        <td rowspan="2"><input type="text" name="name" id="name" autocomplete="off" required autofocus
+            placeholder="실명을 입력하세요" /></td>
+        <th colspan="2"><label for="gender">성별</label></th>
+      </tr>
+      <tr>
+        <td colspan="2" id="rd-gender">
+          <label for="rd-male">남자</label>
+          <input type="radio" name="gender" class="gen" id="rd-male" required value="male" />
+          <label for="rd-female">여자</label>
+          <input type="radio" name="gender" class="gen" id="rd-female" required value="female" />
+          <label for="rd-other">기타</label>
+          <input type="radio" name="gender" class="gen" id="rd-other" required checked value="other" />
+        </td>
+      </tr>
+      <tr>
+        <th rowspan="2"><label for="birth">생년월일</label></th>
+        <td rowspan="2"><input type="date" name="birth" id="birth" /></td>
+        <th colspan="2"><label for="phone">연락처</label></th>
+      </tr>
+      <tr>
+        <td id="cell-phone" colspan="2">
+          <select id="phone-select" name="phone1" required>
+            <option value="" selected>Select</option>
+            <option value="010">010</option>
+            <option value="011">011</option>
+            <option value="016">016</option>
+            <option value="017">017</option>
+            <option value="018">018</option>
+            <option value="019">019</option>
+          </select>
+          &nbsp;-&nbsp;
+          <input type="tel" name="phone2" id="phone-num2" pattern="[0-9]{4}" required autocomplete="off"
+            placeholder="0000" />
+          &nbsp;-&nbsp;
+          <input type="tel" name="phone3" id="phone-num3" pattern="[0-9]{4}" required autocomplete="off"
+            placeholder="0000" />
+        </td>
+      </tr>
+      <tr>
+        <th><label for="address">주소</label></th>
+        <td colspan="4"><input type="text" name="address" id="address" minlength="3" required autocomplete="off"
+            placeholder="읍/면/동 까지만 입력하세요." /></td>
+      </tr>
+      <tr>
+        <th><label for="tech">기술</label></th>
+        <td>전공</td>
+        <td><input type="text" name="tech" id="tech" required placeholder="가능 언어를 입력하세요."></td>
+        <th><label for="pre-region">지원지역</label></th>
+        <td><input type="text" name="pre-region" id="pre-region" minlength="2" placeholder="희망 지역을 입력하세요."></td>
+      </tr>
+    </table>
+    <section>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <input class="btn" type="submit" value="전송하기" />
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <input class="btn" type="reset" value="다시쓰기" />
+    </section>
+  </form>
+</body>
+
+</html>

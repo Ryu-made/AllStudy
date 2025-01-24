@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <!-- HTML : Hyper-Text Markup Language 
+       - 웹 문서 구조를 설계하는 언어
+       <작성방법>
+       1. <>(Angle Bracket)을 사용해서 구분
+       2. 태그는 대소문자 구분 X(보통 전체 소문자)
+       3. 태그는 여는 태그, 닫는 태그 구성
+        ex. <header></header>
+       > 일부 태그들은 닫는 태그 대신에 닫는 표시
+        ex. <img />, <br />
+       > 여닫이 구분하기도 하고 안 하기도 하는 태그도 존재
+        ex. <script></script> ==> <script />
+       4. 모든 태그(Attribute)에는 속성을 가지고 있음.
+       ** 태그가 선언된 위치가 상관없는 태그 : <body> 안에 속하는 전제
+        ex. <link />, <script />, <style>
+       
+        
+    -->
+    
+    <!-- 테이블 태그는 칸 합치기 + for-loop으로 작성할 때 주의 -->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>#</th>
+                <th>#</th>
+                <th>#</th>
+            </tr>
+        </thead>
+        <tfoot>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td colspan="2">2-3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td rowspan="2">6<br />/<br />10</td>
+                <td>7</td>
+                <td rowspan="2">
+                    <div>8</div>
+                    <div>12</div>
+                </td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>11</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form id="" name="" method="" action="" enctype="multipart/form-data" >
+        <input type="file" />
+        <!-- input type 입력창 -->
+
+    </form>
+
+</body>
+</html>

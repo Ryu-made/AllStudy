@@ -1,0 +1,7 @@
+body {
+  /* 페이지 배경에 이미지를 넣을 때는 만일에 고려해서 
+  비슷한 배경 색상을 함께 넣는 것도 좋은 방법이다. */
+  background-color: #f5f2e5;
+  /* 우선순위는 항상 아래 먼저 */
+  background-image: url(../images/bg.png);
+}

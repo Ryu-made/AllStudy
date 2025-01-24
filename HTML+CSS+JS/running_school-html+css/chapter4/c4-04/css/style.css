@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* ## HEADER 부분 만들기 ## */
+/* ---- 공통 부분 작성하기 ---- */
+html {
+  font-size: 100%;
+}
+body {
+  font-family: "나눔고딕", NanumGothic, "맑은고딕", MalgunGothic, "Apple SD Gothic Neo", sans-serif;
+  line-height: 1.7;
+  color: #432;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+/* ---- 로고 크기와 여백 조정하기 ---- */
+/* HEADER */
+.logo {
+  width: 210px;
+  margin-top: 14px;
+}
+/* ---- 내비게이션 메뉴 장식하기 ---- */
+.main-nav {
+  display: flex; /* 메뉴를 가로로 정렬 */
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: 34px;
+  list-style: none;
+}
+.main-nav li {
+  margin-left: 36px;
+}
+.main-nav a {
+  color: #432;
+}
+.main-nav a:hover { /* :hover는 마우스 커서를 올리는 가상 클래스(pseudo class) */
+  color:#0bd;
+}
+.page-header {
+  display: flex; /* 로고와 메뉴를 다시 가로로 정렬 */
+  justify-content: space-between; /* 양쪽 끝에 붙이기 */
+}
+/* ---- 콘텐츠의 최대 출력 너비 설정하기 (화면 너비 고려) ---- */
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+/* HEADER 마침 */

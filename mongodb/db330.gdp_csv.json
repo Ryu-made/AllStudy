@@ -1,0 +1,1083 @@
+[
+{
+  "_id": {
+    "$oid": "679193a47fd85c8616659c2b"
+  },
+  "year": {
+    "$numberInt": "2001"
+  },
+  "korea": {
+    "$numberDouble": "4.7"
+  },
+  "china": {
+    "$numberDouble": "8.3"
+  },
+  "japan": {
+    "$numberDouble": "0.4"
+  },
+  "usa": {
+    "$numberDouble": "1.0"
+  },
+  "brazil": {
+    "$numberDouble": "1.4"
+  },
+  "peru": {
+    "$numberDouble": "0.6"
+  },
+  "finland": {
+    "$numberDouble": "2.6"
+  },
+  "france": {
+    "$numberDouble": "2.0"
+  },
+  "germany": {
+    "$numberDouble": "1.7"
+  },
+  "sweden": {
+    "$numberDouble": "1.4"
+  },
+  "england": {
+    "$numberDouble": "2.6"
+  },
+  "southAfrica": {
+    "$numberDouble": "2.7"
+  },
+  "australia": {
+    "$numberDouble": "2.0"
+  }
+},
+{
+  "_id": {
+    "$oid": "679193a47fd85c8616659c2c"
+  },
+  "year": {
+    "$numberInt": "2002"
+  },
+  "korea": {
+    "$numberDouble": "7.7"
+  },
+  "china": {
+    "$numberDouble": "9.1"
+  },
+  "japan": {
+    "$numberDouble": "0.0"
+  },
+  "usa": {
+    "$numberDouble": "1.7"
+  },
+  "brazil": {
+    "$numberDouble": "3.1"
+  },
+  "peru": {
+    "$numberDouble": "5.5"
+  },
+  "finland": {
+    "$numberDouble": "1.7"
+  },
+  "france": {
+    "$numberDouble": "1.1"
+  },
+  "germany": {
+    "$numberDouble": "-0.2"
+  },
+  "sweden": {
+    "$numberDouble": "2.2"
+  },
+  "england": {
+    "$numberDouble": "1.8"
+  },
+  "southAfrica": {
+    "$numberDouble": "3.7"
+  },
+  "australia": {
+    "$numberDouble": "4.0"
+  }
+},
+{
+  "_id": {
+    "$oid": "679193a47fd85c8616659c2d"
+  },
+  "year": {
+    "$numberInt": "2003"
+  },
+  "korea": {
+    "$numberDouble": "3.1"
+  },
+  "china": {
+    "$numberDouble": "10.0"
+  },
+  "japan": {
+    "$numberDouble": "1.5"
+  },
+  "usa": {
+    "$numberDouble": "2.8"
+  },
+  "brazil": {
+    "$numberDouble": "1.1"
+  },
+  "peru": {
+    "$numberDouble": "4.2"
+  },
+  "finland": {
+    "$numberDouble": "2.0"
+  },
+  "france": {
+    "$numberDouble": "0.8"
+  },
+  "germany": {
+    "$numberDouble": "-0.7"
+  },
+  "sweden": {
+    "$numberDouble": "2.3"
+  },
+  "england": {
+    "$numberDouble": "3.1"
+  },
+  "southAfrica": {
+    "$numberDouble": "2.9"
+  },
+  "australia": {
+    "$numberDouble": "3.1"
+  }
+},
+{
+  "_id": {
+    "$oid": "679193a47fd85c8616659c2e"
+  },
+  "year": {
+    "$numberInt": "2004"
+  },
+  "korea": {
+    "$numberDouble": "5.2"
+  },
+  "china": {
+    "$numberDouble": "10.1"
+  },
+  "japan": {
+    "$numberDouble": "2.2"
+  },
+  "usa": {
+    "$numberDouble": "3.8"
+  },
+  "brazil": {
+    "$numberDouble": "5.8"
+  },
+  "peru": {
+    "$numberDouble": "5.0"
+  },
+  "finland": {
+    "$numberDouble": "4.0"
+  },
+  "france": {
+    "$numberDouble": "2.8"
+  },
+  "germany": {
+    "$numberDouble": "1.2"
+  },
+  "sweden": {
+    "$numberDouble": "4.3"
+  },
+  "england": {
+    "$numberDouble": "2.4"
+  },
+  "southAfrica": {
+    "$numberDouble": "4.6"
+  },
+  "australia": {
+    "$numberDouble": "4.2"
+  }
+},
+{
+  "_id": {
+    "$oid": "679193a47fd85c8616659c2f"
+  },
+  "year": {
+    "$numberInt": "2005"
+  },
+  "korea": {
+    "$numberDouble": "4.4"
+  },
+  "china": {
+    "$numberDouble": "11.4"
+  },
+  "japan": {
+    "$numberDouble": "1.8"
+  },
+  "usa": {
+    "$numberDouble": "3.5"
+  },
+  "brazil": {
+    "$numberDouble": "3.2"
+  },
+  "peru": {
+    "$numberDouble": "6.3"
+  },
+  "finland": {
+    "$numberDouble": "2.8"
+  },
+  "france": {
+    "$numberDouble": "1.7"
+  },
+  "germany": {
+    "$numberDouble": "0.7"
+  },
+  "sweden": {
+    "$numberDouble": "2.9"
+  },
+  "england": {
+    "$numberDouble": "2.7"
+  },
+  "southAfrica": {
+    "$numberDouble": "5.3"
+  },
+  "australia": {
+    "$numberDouble": "3.2"
+  }
+},
+{
+  "_id": {
+    "$oid": "679193a47fd85c8616659c30"
+  },
+  "year": {
+    "$numberInt": "2006"
+  },
+  "korea": {
+    "$numberDouble": "5.2"
+  },
+  "china": {
+    "$numberDouble": "12.7"
+  },
+  "japan": {
+    "$numberDouble": "1.4"
+  },
+  "usa": {
+    "$numberDouble": "2.8"
+  },
+  "brazil": {
+    "$numberDouble": "4.0"
+  },
+  "peru": {
+    "$numberDouble": "7.5"
+  },
+  "finland": {
+    "$numberDouble": "4.0"
+  },
+  "france": {
+    "$numberDouble": "2.4"
+  },
+  "germany": {
+    "$numberDouble": "3.8"
+  },
+  "sweden": {
+    "$numberDouble": "4.7"
+  },
+  "england": {
+    "$numberDouble": "2.4"
+  },
+  "southAfrica": {
+    "$numberDouble": "5.6"
+  },
+  "australia": {
+    "$numberDouble": "2.8"
+  }
+},
+{
+  "_id": {
+    "$oid": "679193a47fd85c8616659c31"
+  },
+  "year": {
+    "$numberInt": "2007"
+  },
+  "korea": {
+    "$numberDouble": "5.8"
+  },
+  "china": {
+    "$numberDouble": "14.2"
+  },
+  "japan": {
+    "$numberDouble": "1.5"
+  },
+  "usa": {
+    "$numberDouble": "2.0"
+  },
+  "brazil": {
+    "$numberDouble": "6.1"
+  },
+  "peru": {
+    "$numberDouble": "8.5"
+  },
+  "finland": {
+    "$numberDouble": "5.3"
+  },
+  "france": {
+    "$numberDouble": "2.4"
+  },
+  "germany": {
+    "$numberDouble": "3.0"
+  },
+  "sweden": {
+    "$numberDouble": "3.4"
+  },
+  "england": {
+    "$numberDouble": "2.6"
+  },
+  "southAfrica": {
+    "$numberDouble": "5.4"
+  },
+  "australia": {
+    "$numberDouble": "3.8"
+  }
+},
+{
+  "_id": {
+    "$oid": "679193a47fd85c8616659c32"
+  },
+  "year": {
+    "$numberInt": "2008"
+  },
+  "korea": {
+    "$numberDouble": "3.0"
+  },
+  "china": {
+    "$numberDouble": "9.7"
+  },
+  "japan": {
+    "$numberDouble": "-1.2"
+  },
+  "usa": {
+    "$numberDouble": "0.1"
+  },
+  "brazil": {
+    "$numberDouble": "5.1"
+  },
+  "peru": {
+    "$numberDouble": "9.1"
+  },
+  "finland": {
+    "$numberDouble": "0.8"
+  },
+  "france": {
+    "$numberDouble": "0.3"
+  },
+  "germany": {
+    "$numberDouble": "1.0"
+  },
+  "sweden": {
+    "$numberDouble": "-0.5"
+  },
+  "england": {
+    "$numberDouble": "-0.2"
+  },
+  "southAfrica": {
+    "$numberDouble": "3.2"
+  },
+  "australia": {
+    "$numberDouble": "3.6"
+  }
+},
+{
+  "_id": {
+    "$oid": "679193a47fd85c8616659c33"
+  },
+  "year": {
+    "$numberInt": "2009"
+  },
+  "korea": {
+    "$numberDouble": "0.8"
+  },
+  "china": {
+    "$numberDouble": "9.4"
+  },
+  "japan": {
+    "$numberDouble": "-5.7"
+  },
+  "usa": {
+    "$numberDouble": "-2.6"
+  },
+  "brazil": {
+    "$numberDouble": "-0.1"
+  },
+  "peru": {
+    "$numberDouble": "1.1"
+  },
+  "finland": {
+    "$numberDouble": "-8.1"
+  },
+  "france": {
+    "$numberDouble": "-2.9"
+  },
+  "germany": {
+    "$numberDouble": "-5.7"
+  },
+  "sweden": {
+    "$numberDouble": "-4.3"
+  },
+  "england": {
+    "$numberDouble": "-4.6"
+  },
+  "southAfrica": {
+    "$numberDouble": "-1.5"
+  },
+  "australia": {
+    "$numberDouble": "1.9"
+  }
+},
+{
+  "_id": {
+    "$oid": "679193a47fd85c8616659c34"
+  },
+  "year": {
+    "$numberInt": "2010"
+  },
+  "korea": {
+    "$numberDouble": "7.0"
+  },
+  "china": {
+    "$numberDouble": "10.6"
+  },
+  "japan": {
+    "$numberDouble": "4.1"
+  },
+  "usa": {
+    "$numberDouble": "2.7"
+  },
+  "brazil": {
+    "$numberDouble": "7.5"
+  },
+  "peru": {
+    "$numberDouble": "8.3"
+  },
+  "finland": {
+    "$numberDouble": "3.2"
+  },
+  "france": {
+    "$numberDouble": "1.9"
+  },
+  "germany": {
+    "$numberDouble": "4.2"
+  },
+  "sweden": {
+    "$numberDouble": "6.0"
+  },
+  "england": {
+    "$numberDouble": "2.2"
+  },
+  "southAfrica": {
+    "$numberDouble": "3.0"
+  },
+  "australia": {
+    "$numberDouble": "2.2"
+  }
+},
+{
+  "_id": {
+    "$oid": "679193a47fd85c8616659c35"
+  },
+  "year": {
+    "$numberInt": "2011"
+  },
+  "korea": {
+    "$numberDouble": "3.7"
+  },
+  "china": {
+    "$numberDouble": "9.6"
+  },
+  "japan": {
+    "$numberDouble": "0.0"
+  },
+  "usa": {
+    "$numberDouble": "1.6"
+  },
+  "brazil": {
+    "$numberDouble": "4.0"
+  },
+  "peru": {
+    "$numberDouble": "6.3"
+  },
+  "finland": {
+    "$numberDouble": "2.5"
+  },
+  "france": {
+    "$numberDouble": "2.2"
+  },
+  "germany": {
+    "$numberDouble": "3.9"
+  },
+  "sweden": {
+    "$numberDouble": "3.2"
+  },
+  "england": {
+    "$numberDouble": "1.1"
+  },
+  "southAfrica": {
+    "$numberDouble": "3.2"
+  },
+  "australia": {
+    "$numberDouble": "2.4"
+  }
+},
+{
+  "_id": {
+    "$oid": "679193a47fd85c8616659c36"
+  },
+  "year": {
+    "$numberInt": "2012"
+  },
+  "korea": {
+    "$numberDouble": "2.5"
+  },
+  "china": {
+    "$numberDouble": "7.9"
+  },
+  "japan": {
+    "$numberDouble": "1.4"
+  },
+  "usa": {
+    "$numberDouble": "2.3"
+  },
+  "brazil": {
+    "$numberDouble": "1.9"
+  },
+  "peru": {
+    "$numberDouble": "6.1"
+  },
+  "finland": {
+    "$numberDouble": "-1.4"
+  },
+  "france": {
+    "$numberDouble": "0.3"
+  },
+  "germany": {
+    "$numberDouble": "0.4"
+  },
+  "sweden": {
+    "$numberDouble": "-0.6"
+  },
+  "england": {
+    "$numberDouble": "1.5"
+  },
+  "southAfrica": {
+    "$numberDouble": "2.4"
+  },
+  "australia": {
+    "$numberDouble": "3.9"
+  }
+},
+{
+  "_id": {
+    "$oid": "679193a47fd85c8616659c37"
+  },
+  "year": {
+    "$numberInt": "2013"
+  },
+  "korea": {
+    "$numberDouble": "3.3"
+  },
+  "china": {
+    "$numberDouble": "7.8"
+  },
+  "japan": {
+    "$numberDouble": "2.0"
+  },
+  "usa": {
+    "$numberDouble": "2.1"
+  },
+  "brazil": {
+    "$numberDouble": "3.0"
+  },
+  "peru": {
+    "$numberDouble": "5.9"
+  },
+  "finland": {
+    "$numberDouble": "-0.9"
+  },
+  "france": {
+    "$numberDouble": "0.6"
+  },
+  "germany": {
+    "$numberDouble": "0.4"
+  },
+  "sweden": {
+    "$numberDouble": "1.2"
+  },
+  "england": {
+    "$numberDouble": "1.8"
+  },
+  "southAfrica": {
+    "$numberDouble": "2.5"
+  },
+  "australia": {
+    "$numberDouble": "2.6"
+  }
+},
+{
+  "_id": {
+    "$oid": "679193a47fd85c8616659c38"
+  },
+  "year": {
+    "$numberInt": "2014"
+  },
+  "korea": {
+    "$numberDouble": "3.2"
+  },
+  "china": {
+    "$numberDouble": "7.4"
+  },
+  "japan": {
+    "$numberDouble": "0.3"
+  },
+  "usa": {
+    "$numberDouble": "2.5"
+  },
+  "brazil": {
+    "$numberDouble": "0.5"
+  },
+  "peru": {
+    "$numberDouble": "2.4"
+  },
+  "finland": {
+    "$numberDouble": "-0.4"
+  },
+  "france": {
+    "$numberDouble": "1.0"
+  },
+  "germany": {
+    "$numberDouble": "2.2"
+  },
+  "sweden": {
+    "$numberDouble": "2.7"
+  },
+  "england": {
+    "$numberDouble": "3.2"
+  },
+  "southAfrica": {
+    "$numberDouble": "1.4"
+  },
+  "australia": {
+    "$numberDouble": "2.6"
+  }
+},
+{
+  "_id": {
+    "$oid": "679193a47fd85c8616659c39"
+  },
+  "year": {
+    "$numberInt": "2015"
+  },
+  "korea": {
+    "$numberDouble": "2.9"
+  },
+  "china": {
+    "$numberDouble": "7.0"
+  },
+  "japan": {
+    "$numberDouble": "1.6"
+  },
+  "usa": {
+    "$numberDouble": "2.9"
+  },
+  "brazil": {
+    "$numberDouble": "-3.5"
+  },
+  "peru": {
+    "$numberDouble": "3.3"
+  },
+  "finland": {
+    "$numberDouble": "0.5"
+  },
+  "france": {
+    "$numberDouble": "1.1"
+  },
+  "germany": {
+    "$numberDouble": "1.5"
+  },
+  "sweden": {
+    "$numberDouble": "4.5"
+  },
+  "england": {
+    "$numberDouble": "2.2"
+  },
+  "southAfrica": {
+    "$numberDouble": "1.3"
+  },
+  "australia": {
+    "$numberDouble": "2.2"
+  }
+},
+{
+  "_id": {
+    "$oid": "679193a47fd85c8616659c3a"
+  },
+  "year": {
+    "$numberInt": "2016"
+  },
+  "korea": {
+    "$numberDouble": "3.2"
+  },
+  "china": {
+    "$numberDouble": "6.8"
+  },
+  "japan": {
+    "$numberDouble": "0.8"
+  },
+  "usa": {
+    "$numberDouble": "1.8"
+  },
+  "brazil": {
+    "$numberDouble": "-3.3"
+  },
+  "peru": {
+    "$numberDouble": "4.0"
+  },
+  "finland": {
+    "$numberDouble": "2.8"
+  },
+  "france": {
+    "$numberDouble": "1.1"
+  },
+  "germany": {
+    "$numberDouble": "2.2"
+  },
+  "sweden": {
+    "$numberDouble": "2.1"
+  },
+  "england": {
+    "$numberDouble": "1.9"
+  },
+  "southAfrica": {
+    "$numberDouble": "0.7"
+  },
+  "australia": {
+    "$numberDouble": "2.8"
+  }
+},
+{
+  "_id": {
+    "$oid": "679193a47fd85c8616659c3b"
+  },
+  "year": {
+    "$numberInt": "2017"
+  },
+  "korea": {
+    "$numberDouble": "3.4"
+  },
+  "china": {
+    "$numberDouble": "6.9"
+  },
+  "japan": {
+    "$numberDouble": "1.7"
+  },
+  "usa": {
+    "$numberDouble": "2.5"
+  },
+  "brazil": {
+    "$numberDouble": "1.3"
+  },
+  "peru": {
+    "$numberDouble": "2.5"
+  },
+  "finland": {
+    "$numberDouble": "3.2"
+  },
+  "france": {
+    "$numberDouble": "2.3"
+  },
+  "germany": {
+    "$numberDouble": "2.7"
+  },
+  "sweden": {
+    "$numberDouble": "2.6"
+  },
+  "england": {
+    "$numberDouble": "2.7"
+  },
+  "southAfrica": {
+    "$numberDouble": "1.2"
+  },
+  "australia": {
+    "$numberDouble": "2.3"
+  }
+},
+{
+  "_id": {
+    "$oid": "679193a47fd85c8616659c3c"
+  },
+  "year": {
+    "$numberInt": "2018"
+  },
+  "korea": {
+    "$numberDouble": "3.2"
+  },
+  "china": {
+    "$numberDouble": "6.7"
+  },
+  "japan": {
+    "$numberDouble": "0.6"
+  },
+  "usa": {
+    "$numberDouble": "3.0"
+  },
+  "brazil": {
+    "$numberDouble": "1.8"
+  },
+  "peru": {
+    "$numberDouble": "4.0"
+  },
+  "finland": {
+    "$numberDouble": "1.1"
+  },
+  "france": {
+    "$numberDouble": "1.9"
+  },
+  "germany": {
+    "$numberDouble": "1.0"
+  },
+  "sweden": {
+    "$numberDouble": "2.0"
+  },
+  "england": {
+    "$numberDouble": "1.4"
+  },
+  "southAfrica": {
+    "$numberDouble": "1.6"
+  },
+  "australia": {
+    "$numberDouble": "2.9"
+  }
+},
+{
+  "_id": {
+    "$oid": "679193a47fd85c8616659c3d"
+  },
+  "year": {
+    "$numberInt": "2019"
+  },
+  "korea": {
+    "$numberDouble": "2.3"
+  },
+  "china": {
+    "$numberDouble": "6.0"
+  },
+  "japan": {
+    "$numberDouble": "-0.4"
+  },
+  "usa": {
+    "$numberDouble": "2.5"
+  },
+  "brazil": {
+    "$numberDouble": "1.2"
+  },
+  "peru": {
+    "$numberDouble": "2.2"
+  },
+  "finland": {
+    "$numberDouble": "1.2"
+  },
+  "france": {
+    "$numberDouble": "1.8"
+  },
+  "germany": {
+    "$numberDouble": "1.1"
+  },
+  "sweden": {
+    "$numberDouble": "2.0"
+  },
+  "england": {
+    "$numberDouble": "1.6"
+  },
+  "southAfrica": {
+    "$numberDouble": "0.3"
+  },
+  "australia": {
+    "$numberDouble": "2.2"
+  }
+},
+{
+  "_id": {
+    "$oid": "679193a47fd85c8616659c3e"
+  },
+  "year": {
+    "$numberInt": "2020"
+  },
+  "korea": {
+    "$numberDouble": "-0.7"
+  },
+  "china": {
+    "$numberDouble": "2.2"
+  },
+  "japan": {
+    "$numberDouble": "-4.1"
+  },
+  "usa": {
+    "$numberDouble": "-2.2"
+  },
+  "brazil": {
+    "$numberDouble": "-3.3"
+  },
+  "peru": {
+    "$numberDouble": "-10.9"
+  },
+  "finland": {
+    "$numberDouble": "-2.4"
+  },
+  "france": {
+    "$numberDouble": "-7.5"
+  },
+  "germany": {
+    "$numberDouble": "-3.8"
+  },
+  "sweden": {
+    "$numberDouble": "-2.2"
+  },
+  "england": {
+    "$numberDouble": "-10.4"
+  },
+  "southAfrica": {
+    "$numberDouble": "-6.0"
+  },
+  "australia": {
+    "$numberDouble": "-0.3"
+  }
+},
+{
+  "_id": {
+    "$oid": "679193a47fd85c8616659c3f"
+  },
+  "year": {
+    "$numberInt": "2021"
+  },
+  "korea": {
+    "$numberDouble": "4.6"
+  },
+  "china": {
+    "$numberDouble": "8.4"
+  },
+  "japan": {
+    "$numberDouble": "2.6"
+  },
+  "usa": {
+    "$numberDouble": "5.8"
+  },
+  "brazil": {
+    "$numberDouble": "4.8"
+  },
+  "peru": {
+    "$numberDouble": "13.4"
+  },
+  "finland": {
+    "$numberDouble": "2.8"
+  },
+  "france": {
+    "$numberDouble": "6.4"
+  },
+  "germany": {
+    "$numberDouble": "3.2"
+  },
+  "sweden": {
+    "$numberDouble": "6.1"
+  },
+  "england": {
+    "$numberDouble": "8.7"
+  },
+  "southAfrica": {
+    "$numberDouble": "4.7"
+  },
+  "australia": {
+    "$numberDouble": "2.1"
+  }
+},
+{
+  "_id": {
+    "$oid": "679193a47fd85c8616659c40"
+  },
+  "year": {
+    "$numberInt": "2022"
+  },
+  "korea": {
+    "$numberDouble": "2.7"
+  },
+  "china": {
+    "$numberDouble": "3.0"
+  },
+  "japan": {
+    "$numberDouble": "1.0"
+  },
+  "usa": {
+    "$numberDouble": "1.9"
+  },
+  "brazil": {
+    "$numberDouble": "3.0"
+  },
+  "peru": {
+    "$numberDouble": "2.7"
+  },
+  "finland": {
+    "$numberDouble": "1.3"
+  },
+  "france": {
+    "$numberDouble": "2.5"
+  },
+  "germany": {
+    "$numberDouble": "1.8"
+  },
+  "sweden": {
+    "$numberDouble": "2.7"
+  },
+  "england": {
+    "$numberDouble": "4.3"
+  },
+  "southAfrica": {
+    "$numberDouble": "1.9"
+  },
+  "australia": {
+    "$numberDouble": "4.3"
+  }
+},
+{
+  "_id": {
+    "$oid": "679193a47fd85c8616659c41"
+  },
+  "year": {
+    "$numberInt": "2023"
+  },
+  "korea": {
+    "$numberDouble": "1.4"
+  },
+  "china": {
+    "$numberDouble": "5.2"
+  },
+  "japan": {
+    "$numberDouble": "1.9"
+  },
+  "usa": {
+    "$numberDouble": "2.5"
+  },
+  "brazil": {
+    "$numberDouble": "2.9"
+  },
+  "peru": {
+    "$numberDouble": "-0.6"
+  },
+  "finland": {
+    "$numberDouble": "-1.0"
+  },
+  "france": {
+    "$numberDouble": "0.7"
+  },
+  "germany": {
+    "$numberDouble": "-0.3"
+  },
+  "sweden": {
+    "$numberDouble": "-0.2"
+  },
+  "england": {
+    "$numberDouble": "0.1"
+  },
+  "southAfrica": {
+    "$numberDouble": "0.6"
+  },
+  "australia": {
+    "$numberDouble": "3.0"
+  }
+}
+]

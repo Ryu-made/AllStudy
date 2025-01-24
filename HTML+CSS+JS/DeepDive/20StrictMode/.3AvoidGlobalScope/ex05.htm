@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+  <script>
+    // strict mode는 스크립트 단위로 이루어진다. 같은 html 페이지의 다른 스크립트에는 적용되지 않는다. 
+    'use strict';
+    // a = 5; // Uncaught ReferenceError: a is not defined
+  </script>
+  <script>
+    b = 6; // 에러를 발생시키지 않고 암묵적 전역이 이루어진다.
+    console.log(b); // 6
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+@charset "utf-8";
+p#p1 {
+  border-width: 1px;
+  border-style: solid;
+}
+p#p2 {
+  border-width: thick;
+  border-style: solid;
+}
+div {
+  border-width: 1px 4px 8px 10px;
+  border-style: solid;
+}
+* {
+  padding: 1em;
+}
